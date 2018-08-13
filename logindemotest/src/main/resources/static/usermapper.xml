@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE com.cszt.mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-com.cszt.mapper.dtd" >
+<com.cszt.mapper namespace="com.cszt.com.cszt.mapperzt.UserMapper">
+    <select id="getUserclass" resultMap="resultmap" parameterType="int">
+        select * from newuser u,class c where u.cid = c.cid and id = #{id}
+    </select>
+    <resultMap id="resultmap" type="com.ztdz.User">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <association property="clazz" column="cid" javaType="Clazz">
+            <id property="cid" column="cid"/>
+            <result property="cname" column="cname"/>
+            <result property="cdate" column="cdate"/>
+        </association>
+    </resultMap>
+</com.cszt.mapper>

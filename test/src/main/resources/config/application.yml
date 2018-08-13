@@ -1,0 +1,60 @@
+server:
+  port: 8080
+
+swagger:  #swagger配置
+   enable: true  # 是否开启swagger，建议生产关闭，默认true
+   basePackage: com.szzt.smart.test.com.cszt.controller  #swagger扫描的api包，不能为空
+   title:  接入API列表  # 标题
+   description: 接入API列表 #描述
+   groupName: group-1
+
+
+
+spring:
+  profiles:
+      active: local
+  application:
+      name: test
+
+
+datasource:
+        writeDS:
+             url: jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;noAccessToProcedureBodies=true&amp;generateSimpleParameterMetadata=true&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false
+             username: root
+             password: 123456
+             driverClassName: com.mysql.jdbc.Driver
+        readDS:
+             url: jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;noAccessToProcedureBodies=true&amp;generateSimpleParameterMetadata=true&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false
+             username: root
+             password: 123456
+             driverClassName: com.mysql.jdbc.Driver
+
+smartMybatis:
+    aliasPackage: com.szzt.smart.test.entity
+    mapperLocation: classpath*:com.cszt.mapper/**/*.xml
+    mapper-scanner: com.szzt.smart.test.com.cszt.mapper
+    idStrategy: AUTO
+
+
+
+logging:
+  file: ${spring.application.name}
+  path: /opt/logs/${spring.application.name}
+  level:
+    com:
+      szzt:
+        smart: debug
+
+
+
+
+
+
+
+
+
+
+
+
+
+

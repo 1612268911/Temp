@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      label: master
+      uri: http://localhost:8082
+  application:
+    name: ConfigClientOne
+
+
+

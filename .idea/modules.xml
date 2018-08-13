@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BpmTest/BpmTest.iml" filepath="$PROJECT_DIR$/BpmTest/BpmTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConfigClientOne/Configclient.iml" filepath="$PROJECT_DIR$/ConfigClientOne/Configclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConfigClientTree/Configclient (1).iml" filepath="$PROJECT_DIR$/ConfigClientTree/Configclient (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConfigClientTwo/Configclient (2).iml" filepath="$PROJECT_DIR$/ConfigClientTwo/Configclient (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/DownExcel/DownExcel.iml" filepath="$PROJECT_DIR$/DownExcel/DownExcel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ElectronicSignature/ElectronicSignature.iml" filepath="$PROJECT_DIR$/ElectronicSignature/ElectronicSignature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer2.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpClient/HttpClient.iml" filepath="$PROJECT_DIR$/HttpClient/HttpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaMail/JavaMail.iml" filepath="$PROJECT_DIR$/JavaMail/JavaMail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewTest/NewTest.iml" filepath="$PROJECT_DIR$/NewTest/NewTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Temp.iml" filepath="$PROJECT_DIR$/.idea/Temp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XXL-job-center/XXL-job-center.iml" filepath="$PROJECT_DIR$/XXL-job-center/XXL-job-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZuulServer/ZuulServer.iml" filepath="$PROJECT_DIR$/ZuulServer/ZuulServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Configserver/configserver.iml" filepath="$PROJECT_DIR$/Configserver/configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/demo.iml" filepath="$PROJECT_DIR$/Project/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FeignServer/feignserver.iml" filepath="$PROJECT_DIR$/FeignServer/feignserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logindemo/logindemo.iml" filepath="$PROJECT_DIR$/logindemo/logindemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logindemotest/logindemo (1).iml" filepath="$PROJECT_DIR$/logindemotest/logindemo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testlist/testlist.iml" filepath="$PROJECT_DIR$/testlist/testlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zipkinclient/zipkinclient.iml" filepath="$PROJECT_DIR$/Zipkinclient/zipkinclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zipkinserver/zipkinserver.iml" filepath="$PROJECT_DIR$/Zipkinserver/zipkinserver.iml" />
+    </modules>
+  </component>
+</project>
