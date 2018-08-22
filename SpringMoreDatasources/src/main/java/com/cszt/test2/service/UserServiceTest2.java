@@ -33,4 +33,10 @@ public class UserServiceTest2 {
     public User getUser(Integer id){
         return userMapperTest2.getUser(id);
     }
+    @Transactional(value = "test2TransactionManager")
+    public int insert(User user){
+        int count = userMapperTest2.insert(user);
+        int a = 1/0;
+        return count;
+    }
 }

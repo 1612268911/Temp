@@ -14,8 +14,7 @@ import com.cszt.domain.User;
 import com.cszt.test1.service.UserServiceTest1;
 import com.cszt.test2.service.UserServiceTest2;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * 〈一句话功能简述〉<br>
@@ -39,5 +38,17 @@ public class UserController {
     @GetMapping("/getUserTest2")
     public User getUserTest2(Integer id){
         return userServiceTest2.getUser(id);
+    }
+    @RequestMapping(value = "/insert1",method = RequestMethod.POST)
+    public int insert1(@RequestBody User user){
+        return userServiceTest1.insert(user);
+    }
+    @RequestMapping(value = "/insert2",method = RequestMethod.POST)
+    public int insert2(@RequestBody User user){
+        return userServiceTest2.insert(user);
+    }
+    @RequestMapping(value = "/insertMerge",method = RequestMethod.POST)
+    public int insertMerge(@RequestBody User user){
+        return userServiceTest1.insertMerge(user);
     }
 }

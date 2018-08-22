@@ -24,5 +24,8 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface UserMapperTest2 {
+
     User getUser(Integer id);
+
+    int insert(User user);
 }

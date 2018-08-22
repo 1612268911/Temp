@@ -22,8 +22,6 @@ import java.io.Serializable;
  */
 public class User implements Serializable {
 
-    private static final long serialVersionUID = -2383230700190901791L;
-
     private Integer id;
 
     private String name;

@@ -4,4 +4,7 @@
     <select id="getUser" parameterType="integer" resultType="com.cszt.domain.User">
         select u.id,u.name,u.pwd from user u where u.id = #{id}
     </select>
+    <insert id="insert" parameterType="com.cszt.domain.User">
+        insert into user(id,name,pwd) values(#{id},#{name},#{pwd});
+    </insert>
 </mapper>
