@@ -31,8 +31,10 @@ public class UserServiceTest2 {
     private UserMapperTest2 userMapperTest2;
     @Autowired
     private UserMapperTest1 userMapperTest1;
-
-    @Transactional//方法执行完才写入数据库，报错则回滚
+	/**
+	**方法执行完才写入数据库，报错则全部回滚（配置了事务统一管理）
+	*/
+    @Transactional
     public int getUser(User user){
         user = new User();
         user.setId(2);
