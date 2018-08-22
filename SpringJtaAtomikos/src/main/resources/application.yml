@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    test1:
+      username: admin
+      password: admin
+      url: jdbc:mysql://localhost:3306/test1?characterEncoding=utf-8&useSSL=true
+      driver-class-name: com.mysql.jdbc.Driver
+      minPoolSize: 3
+      maxPoolSize: 25
+      maxLifetime: 20000
+      borrowConnectionTimeout: 30
+      loginTimeout: 30
+      maintenanceInterval: 60
+      maxIdleTime: 60
+    test2:
+      username: admin
+      password: admin
+      url: jdbc:mysql://localhost:3306/test2?characterEncoding=utf-8&useSSL=true
+      driver-class-name: com.mysql.jdbc.Driver
+      minPoolSize: 3
+      maxPoolSize: 25
+      maxLifetime: 20000
+      borrowConnectionTimeout: 30
+      loginTimeout: 30
+      maintenanceInterval: 60
+      maxIdleTime: 60

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.szzt.smart:smart-framework-starter-web:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/szzt/smart/smart-framework-starter-web/unknown/smart-framework-starter-web-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/szzt/smart/smart-framework-starter-web/unknown/smart-framework-starter-web-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/szzt/smart/smart-framework-starter-web/unknown/smart-framework-starter-web-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

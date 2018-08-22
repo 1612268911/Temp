@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://www.padual.com/java/logback.xsd"
+        debug="false" scan="true" scanPeriod="30 second">
+
+    <property name="LOG_HOME" value="D:/logs/" />
+    <property name="FILESIZE" value="50MB" />
+    <property name="MAXHISTORY" value="100" />
+    <timestamp key="DATETIME" datePattern="yyyy-MM-dd HH:mm:ss" />
+    <!-- 控制台打印 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder charset="utf-8">
+            <!--%d表示日期，%thread表示线程名，%-5level表示级别从左显示5个字符宽度，%m表示日志消息，%n表示换行符-->
+            <pattern>[%-5level] %d{${DATETIME}} [%thread] %logger{36} - %m%n
+            </pattern>
+        </encoder>
+    </appender>
+    <!-- ERROR 输入到文件，按日期和文件大小 -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--体制文件名称-->
+            <fileNamePattern>${LOG_HOME}%d.log</fileNamePattern>
+            <!--最大保留天数-->
+            <maxHistory>${MAXHISTORY}</maxHistory>
+        </rollingPolicy>
+        <encoder charset="utf-8">
+            <pattern>[%-5level] %d{${DATETIME}} [%thread] %logger{36} - %m%n</pattern>
+        </encoder>
+        <!--日志文件最大的大小-->
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
+        </triggeringPolicy>
+    </appender>
+    <!-- SQL相关日志输出-->
+    <logger name="org.apache.ibatis" level="INFO" additivity="false" />
+    <logger name="org.mybatis.spring" level="INFO" additivity="false" />
+    <logger name="com.github.miemiedev.mybatis.paginator" level="INFO" additivity="false" />
+
+    <!-- Logger 根目录 -->
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>

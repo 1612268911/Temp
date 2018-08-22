@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="BpmTest" />
+        <module name="Configclient" />
+        <module name="Configclient (1)" />
+        <module name="Configclient (2)" />
+        <module name="configserver" />
+        <module name="demo" />
+        <module name="DownExcel" />
+        <module name="ElectronicSignature" />
+        <module name="EurekaServer2" />
+        <module name="feignserver" />
+        <module name="HttpClient" />
+        <module name="JavaMail" />
+        <module name="logindemo" />
+        <module name="logindemo (1)" />
+        <module name="NewTest" />
+        <module name="SpringConfig" />
+        <module name="SpringJpa" />
+        <module name="SpringJtaAtomikos" />
+        <module name="SpringMoreDatasources" />
+        <module name="SpringRedis" />
+        <module name="SpringSecurity" />
+        <module name="test" />
+        <module name="testlist" />
+        <module name="XXL-job-center" />
+        <module name="zipkinclient" />
+        <module name="zipkinserver" />
+        <module name="ZuulServer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BpmTest" target="1.6" />
+      <module name="Configclient" target="1.8" />
+      <module name="configclient" target="1.8" />
+      <module name="Configclient (1)" target="1.8" />
+      <module name="Configclient (2)" target="1.8" />
+      <module name="configserver" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="DownExcel" target="1.6" />
+      <module name="ElectronicSignature" target="1.6" />
+      <module name="EurekaServer2" target="1.6" />
+      <module name="feignserver" target="1.8" />
+      <module name="HttpClient" target="1.6" />
+      <module name="JavaMail" target="1.6" />
+      <module name="Lambda" target="1.5" />
+      <module name="logindemo" target="1.8" />
+      <module name="logindemo (1)" target="1.8" />
+      <module name="NewTest" target="1.8" />
+      <module name="SpringConfig" target="1.6" />
+      <module name="SpringJpa" target="1.6" />
+      <module name="SpringJtaAtomikos" target="1.8" />
+      <module name="SpringMoreDatasources" target="1.8" />
+      <module name="SpringRedis" target="1.6" />
+      <module name="SpringSecurity" target="1.6" />
+      <module name="test" target="1.6" />
+      <module name="testlist" target="1.8" />
+      <module name="XXL-job-center" target="1.6" />
+      <module name="zipkinclient" target="1.6" />
+      <module name="zipkinserver" target="1.6" />
+      <module name="ZuulServer" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

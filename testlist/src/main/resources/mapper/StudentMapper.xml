@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.szzt.smart.testlist.mapper.StudentMapper">
+    <select id="getScoreList" parameterType="StudentCondition" resultMap="resultmap">
+        SELECT
+        s.SID,
+        s.NAME,
+        c.SCORE,
+        c.SCOREID
+        FROM student s
+        LEFT JOIN SCORE c ON s.SID = c.SID
+    </select>
+    <resultMap id="resultmap" type="Student">
+        <id column="sid" property="sid"/>
+        <result column="name" property="name"/>
+        <!--<result column="excel" property="excel"/> 多字段不影响，少字段只是字段值为空，均无异常-->
+        <association property="score" column="sid" javaType="Score">
+           <id column="scoreId" property="scoreId"/>
+           <result column="score" property="score"/>
+           <result column="sid" property="sid"/>
+        </association>
+    </resultMap>
+
+    <!--第二种方式-->
+    <!--<resultMap id="resultmap" type="Student">-->
+        <!--<id column="sid" property="sid"/>-->
+        <!--<result column="name" property="name"/>-->
+        <!--<association property="score" column="sid" resultMap="result"/>-->
+    <!--</resultMap>-->
+    <!--<resultMap id="result" type="Score">-->
+        <!--<id column="scoreId" property="scoreId"/>-->
+        <!--<result column="score" property="score"/>-->
+        <!--<result column="sid" property="sid"/>-->
+    <!--</resultMap>-->
+</mapper>

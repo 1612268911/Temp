@@ -1,0 +1,29 @@
+server:
+  port: 8180
+spring:
+  application:
+    name: zipkinclient
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+#  cloud:
+#    consul:
+#      host: 172.20.3.94
+#      port: 8500
+#      discovery:
+#        com.cszt.service-name: zipkinclient
+#        instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8765/eureka

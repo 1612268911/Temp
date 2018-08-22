@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE com.cszt.mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-com.cszt.mapper.dtd">
+<com.cszt.mapper namespace="com.cszt.com.cszt.mapper.TmtPhaseTypeMapper">
+    <select id="getTmtPhaseType" parameterType="java.lang.String" resultType="com.example.logindemo.com.cszt.pojo.TmtPhaseType">
+        SELECT *
+        FROM TMT_PHASE_TYPE WHERE STEP_CATEGORY_ID = #{id}
+    </select>
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="TmtPhaseType">
+        <id column="STEP_CATEGORY_ID" property="stepCategoryId" />
+        <result column="PARENT_STEP_CATEGORY_ID" property="parentStepCategoryId" />
+        <result column="NAME" property="name" />
+        <result column="SORT_NUMBER" property="sortNumber" />
+        <result column="IS_LEAF" property="isLeaf" />
+    </resultMap>
+
+</com.cszt.mapper>

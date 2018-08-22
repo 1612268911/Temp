@@ -1,0 +1,21 @@
+server:
+  port: 8085
+management:
+  security:
+    enabled: false
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true              #从配置中心获取配置
+        service-id: ConfigServer   #配置中心服务名
+      fail-fast: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8765/eureka
