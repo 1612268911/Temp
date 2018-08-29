@@ -7,7 +7,7 @@ import org.springframework.context.ApplicationEvent;
 /**
  * @author lilin
  * @create 2018/8/29 17:05
- * Description:
+ * Description: 用户注册事件
  */
 @Data
 public class UserRegisterEvent extends ApplicationEvent {

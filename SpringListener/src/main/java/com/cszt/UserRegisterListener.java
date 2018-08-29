@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 /**
  * @author lilin
  * @create 2018/8/29 17:15
- * Description:
+ * Description: UserRegisterEvent事件监听器
  */
 @Component
 public class UserRegisterListener {

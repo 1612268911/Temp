@@ -7,18 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="712058a1-d68f-471d-8405-cf240fad32b0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/SpringListener/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/ListenerApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterListener.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/controller/UserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/domain/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/service/UserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SpringListener/src/main/resources/lib/lombok-1.18.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/SpringJwt/src/main/java/com/cszt/SpringJwtApplication.java" afterPath="$PROJECT_DIR$/SpringJwt/src/main/java/com/cszt/SpringJwtApplication.java" />
-      <change beforePath="$PROJECT_DIR$/SpringJwt/target/classes/com/cszt/SpringJwtApplication.class" afterPath="$PROJECT_DIR$/SpringJwt/target/classes/com/cszt/SpringJwtApplication.class" />
-      <change beforePath="$PROJECT_DIR$/demo" afterPath="$PROJECT_DIR$/SpringJwt/src/main/resources/banner.txt" />
+      <change beforePath="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterEvent.java" afterPath="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterEvent.java" />
+      <change beforePath="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterListener.java" afterPath="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterListener.java" />
     </list>
     <ignored path="$PROJECT_DIR$/EurekaServer/target/" />
     <ignored path="$PROJECT_DIR$/ConfigClient/target/" />
@@ -79,15 +69,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="UserRegisterListener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserRegisterListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="166">
+              <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,11 +96,21 @@
       <file leaf-file-name="UserRegisterEvent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="64">
+              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -204,9 +204,9 @@
         <option value="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/domain/User.java" />
         <option value="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/ListenerApplication.java" />
         <option value="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/service/UserService.java" />
-        <option value="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterEvent.java" />
         <option value="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/controller/UserController.java" />
         <option value="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterListener.java" />
+        <option value="$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterEvent.java" />
       </list>
     </option>
   </component>
@@ -515,6 +515,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cszt" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Temp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Temp" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringListener" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cszt" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Temp" type="b2602c69:ProjectViewProjectNode" />
@@ -921,7 +931,7 @@
       <workItem from="1535446189295" duration="4193000" />
       <workItem from="1535457479991" duration="5029000" />
       <workItem from="1535504768465" duration="5193000" />
-      <workItem from="1535524844468" duration="9323000" />
+      <workItem from="1535524844468" duration="9594000" />
     </task>
     <servers />
   </component>
@@ -955,7 +965,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="406822000" />
+    <option name="totallyTimeSpent" value="407093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1490,16 +1500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/ListenerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1508,16 +1508,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#360#361#0" expanded="false" />
             <element signature="e#430#431#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1532,13 +1522,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="166">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/UserRegisterEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringListener/src/main/java/com/cszt/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
