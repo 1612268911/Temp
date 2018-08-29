@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/testlist" />
+    <file type="web" url="file://$PROJECT_DIR$" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -36,6 +36,7 @@
         <option value="$PROJECT_DIR$/SpringMoreDatasources/pom.xml" />
         <option value="$PROJECT_DIR$/SpringJtaAtomikos/pom.xml" />
         <option value="$PROJECT_DIR$/SpringJwt/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>

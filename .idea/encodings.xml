@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BpmTest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConfigClientOne" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConfigClientTree" charset="UTF-8" />
@@ -17,6 +18,7 @@
     <file url="file://$PROJECT_DIR$/SpringDruid" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringJtaAtomikos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringJwt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringListener" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMoreDatasources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringRedis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringSecurity" charset="UTF-8" />

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com</groupId>
+    <artifactId>temp</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Temp</name>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.9.RELEASE</version>
+        <relativePath />
+    </parent>
+    <modules>
+        <module>bpmtest</module>
+        <module>ConfigclientOne</module>
+        <module>ConfigclientTree</module>
+        <module>ConfigclientTwo</module>
+        <module>ConfigServer</module>
+        <module>DownExcel</module>
+        <module>ElectronicSignature</module>
+        <module>EurekaServer</module>
+        <module>FeignServer</module>
+        <module>HttpClient</module>
+        <module>JavaMail</module>
+        <module>logindemo</module>
+        <module>NewTest</module>
+        <module>logindemotest</module>
+        <module>NewTest</module>
+        <module>Project</module>
+        <module>SpringConfig</module>
+        <module>SpringDruid</module>
+        <module>SpringJtaAtomikos</module>
+        <module>SpringJwt</module>
+        <module>SpringMoreDatasources</module>
+        <module>SpringRedis</module>
+        <module>SpringSecurity</module>
+        <module>test</module>
+        <module>testlist</module>
+        <module>XXL-job-center</module>
+        <module>Zipkinclient</module>
+        <module>Zipkinserver</module>
+        <module>ZuulServer</module>
+        <module>SpringListener</module>
+    </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+        <finalName>pager</finalName>
+    </build>
+</project>

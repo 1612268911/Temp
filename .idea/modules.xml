@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringDruid/SpringJpa.iml" filepath="$PROJECT_DIR$/SpringDruid/SpringJpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringJtaAtomikos/SpringJtaAtomikos.iml" filepath="$PROJECT_DIR$/SpringJtaAtomikos/SpringJtaAtomikos.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringJwt/SpringJwt.iml" filepath="$PROJECT_DIR$/SpringJwt/SpringJwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringListener/SpringListener.iml" filepath="$PROJECT_DIR$/SpringListener/SpringListener.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMoreDatasources/SpringMoreDatasources.iml" filepath="$PROJECT_DIR$/SpringMoreDatasources/SpringMoreDatasources.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringRedis/SpringRedis.iml" filepath="$PROJECT_DIR$/SpringRedis/SpringRedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" filepath="$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" />
