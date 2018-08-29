@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/SpringConfig/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMoreDatasources/pom.xml" />
         <option value="$PROJECT_DIR$/SpringJtaAtomikos/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringJwt/pom.xml" />
       </list>
     </option>
   </component>

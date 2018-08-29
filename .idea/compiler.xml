@@ -24,6 +24,7 @@
         <module name="SpringConfig" />
         <module name="SpringJpa" />
         <module name="SpringJtaAtomikos" />
+        <module name="SpringJwt" />
         <module name="SpringMoreDatasources" />
         <module name="SpringRedis" />
         <module name="SpringSecurity" />
@@ -56,6 +57,7 @@
       <module name="SpringConfig" target="1.6" />
       <module name="SpringJpa" target="1.6" />
       <module name="SpringJtaAtomikos" target="1.8" />
+      <module name="SpringJwt" target="1.8" />
       <module name="SpringMoreDatasources" target="1.8" />
       <module name="SpringRedis" target="1.6" />
       <module name="SpringSecurity" target="1.6" />
