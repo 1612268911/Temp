@@ -64,18 +64,7 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.szzt.smart</groupId>
-			<artifactId>smart-framework-starter-mybatis</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.szzt.smart</groupId>
-			<artifactId>smart-framework-starter-swagger</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.szzt.smart</groupId>
-			<artifactId>smart-framework-starter-web</artifactId>
+		    <version>1.3.6.RELEASE</version>
 		</dependency>
 		<!--<dependency>-->
 			<!--<groupId>org.springframework.cloud</groupId>-->
