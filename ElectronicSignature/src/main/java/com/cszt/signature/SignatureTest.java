@@ -10,6 +10,7 @@
  */
 package com.cszt.signature;
 
+import com.cszt.converter.WordToPdfTest;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.Image;
 import com.itextpdf.text.Rectangle;
@@ -17,6 +18,7 @@ import com.itextpdf.text.pdf.PdfReader;
 import com.itextpdf.text.pdf.PdfSignatureAppearance;
 import com.itextpdf.text.pdf.PdfStamper;
 import com.itextpdf.text.pdf.security.*;
+import com.sun.org.apache.bcel.internal.generic.NEW;
 
 import java.io.*;
 import java.security.GeneralSecurityException;
@@ -33,8 +35,8 @@ import java.security.cert.Certificate;
  * @since 1.0.0
  */
 public class SignatureTest {
-    public static void sign(InputStream src  //需要签章的pdf文件路径
-            , OutputStream dest  // 签完章的pdf文件路径
+    public static void sign(String src  //需要签章的pdf文件路径
+            , String dest  // 签完章的pdf文件路径
             , InputStream p12Stream, //p12 路径
                             char[] password
             , String reason  //签名的原因，显示在pdf签名属性中，随便填
@@ -55,7 +57,7 @@ public class SignatureTest {
         //创建签章工具PdfStamper ，最后一个boolean参数
         //false的话，pdf文件只允许被签名一次，多次签名，最后一次有效
         //true的话，pdf可以被追加签名，验签工具可以识别出每次签名之后文档是否被修改
-        PdfStamper stamper = PdfStamper.createSignature(reader, dest, '\0', null, true);
+        PdfStamper stamper = PdfStamper.createSignature(reader, new FileOutputStream(dest), '\0', null, true);
         // 获取数字签章属性对象，设定数字签章的属性
         PdfSignatureAppearance appearance = stamper.getSignatureAppearance();
         appearance.setReason(reason);
@@ -78,19 +80,23 @@ public class SignatureTest {
         ExternalSignature signature = new PrivateKeySignature(pk, DigestAlgorithms.SHA1, null);
         // 调用itext签名方法完成pdf签章CryptoStandard.CMS 签名方式，建议采用这种
         MakeSignature.signDetached(appearance, digest, signature, chain, null, null, null, 0, MakeSignature.CryptoStandard.CMS);
+        new File(src).delete();
         System.out.println("签章完成....");
     }
     public static void main(String[] args) throws  Exception {
-        String KEYSTORE="d://zrong2.p12";
+        String KEYSTORE="E:\\Temp\\ElectronicSignature\\src\\main\\resources\\zrong2.p12";
         char[] PASSWORD = "123456".toCharArray();//keystory密码
-        String SRC="d://signature.pdf" ;//原始pdf
-        String DEST2="d://demo_signed_itext.pdf" ;//签名完成的pdf
-        String chapterPath="d://chapter.png";//签章图片
+        String wordFile = "C:\\Users\\jj\\Desktop\\activiti.docx";
+        String SRC="E:\\Temp\\ElectronicSignature\\src\\main\\resources\\signature.pdf" ;//原始pdf
+        String DEST2="ElectronicSignature\\src\\main\\resources\\demo_signed_itext.pdf" ;//签名完成的pdf
+        String chapterPath="E:\\Temp\\ElectronicSignature\\src\\main\\resources\\chapter.png";//签章图片
         String signername="測試";
         String reason="数据不可更改";
         String location="桃源乡";
-
-        SignatureTest.sign(new FileInputStream(SRC), new FileOutputStream(DEST2),
+        //word转换成pdf
+        WordToPdfTest.conver(wordFile,SRC);
+        //签章
+        SignatureTest.sign(SRC, DEST2,
                 new FileInputStream(KEYSTORE), PASSWORD,
                 reason, location, chapterPath);
     }

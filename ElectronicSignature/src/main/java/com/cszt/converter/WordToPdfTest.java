@@ -27,10 +27,15 @@ import com.jacob.com.Dispatch;
  * @since 1.0.0
  */
 public class WordToPdfTest {
-    public static void main(String args[]) {
+    /**
+     * @Author lilin
+     * @Description word转pdf转换器 doc或docx都支持
+     * @Date: 2018/8/30 17:48
+     * @param:
+     * @return:
+     */
+    public static void conver(String source,String desc) {
         ActiveXComponent app = null;
-        String wordFile = "C:\\Users\\jj\\Desktop\\总结.docx";//doc或docx都支持
-        String pdfFile = "C:\\Users\\jj\\Desktop\\了解.pdf";
         System.out.println("开始转换...");
         // 开始时间
         long start = System.currentTimeMillis();
@@ -41,17 +46,17 @@ public class WordToPdfTest {
             //app.setProperty("Visible", false);
             // 获得word中所有打开的文档
             Dispatch documents = app.getProperty("Documents").toDispatch();
-            System.out.println("打开文件: " + wordFile);
+            System.out.println("打开文件: " + source);
             // 打开文档
-            Dispatch document = Dispatch.call(documents, "Open", wordFile, false, true).toDispatch();
+            Dispatch document = Dispatch.call(documents, "Open", source, false, true).toDispatch();
             // 如果文件存在的话，不会覆盖，会直接报错，所以我们需要判断文件是否存在
-            File target = new File(pdfFile);
+            File target = new File(desc);
             if (target.exists()) {
                 target.delete();
             }
-            System.out.println("另存为: " + pdfFile);
+            System.out.println("另存为: " + desc);
             // 另存为，将文档报错为pdf，其中word保存为pdf的格式宏的值是17
-            Dispatch.call(document, "SaveAs", pdfFile, 17);
+            Dispatch.call(document, "SaveAs", desc, 17);
             // 关闭文档
             Dispatch.call(document, "Close", false);
             // 结束时间
