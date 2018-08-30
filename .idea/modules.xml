@@ -12,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/HttpClient/HttpClient.iml" filepath="$PROJECT_DIR$/HttpClient/HttpClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaMail/JavaMail.iml" filepath="$PROJECT_DIR$/JavaMail/JavaMail.iml" />
       <module fileurl="file://$PROJECT_DIR$/NewTest/NewTest.iml" filepath="$PROJECT_DIR$/NewTest/NewTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMqCommon/RabbitMqCommon.iml" filepath="$PROJECT_DIR$/RabbitMqCommon/RabbitMqCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMqConsumer/RabbitMqConsumer.iml" filepath="$PROJECT_DIR$/RabbitMqConsumer/RabbitMqConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMqProvider/RabbitMqProvider.iml" filepath="$PROJECT_DIR$/RabbitMqProvider/RabbitMqProvider.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringConfig/SpringConfig.iml" filepath="$PROJECT_DIR$/SpringConfig/SpringConfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDruid/SpringJpa.iml" filepath="$PROJECT_DIR$/SpringDruid/SpringJpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringJtaAtomikos/SpringJtaAtomikos.iml" filepath="$PROJECT_DIR$/SpringJtaAtomikos/SpringJtaAtomikos.iml" />

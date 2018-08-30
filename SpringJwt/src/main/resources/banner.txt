@@ -1,17 +1,61 @@
-${AnsiColor.BRIGHT_RED}                      !                      天地山青   ${AnsiColor.BRIGHT_YELLOW}                      !
-${AnsiColor.BRIGHT_RED}                     /^\                        ${AnsiColor.BRIGHT_YELLOW}道法无常                     /^\
-${AnsiColor.BRIGHT_RED}                   /     \                   天地无极   ${AnsiColor.BRIGHT_YELLOW}                   /     \
-${AnsiColor.BRIGHT_RED}   |            | (       ) |            |      ${AnsiColor.BRIGHT_YELLOW}乾坤戒法   |            | (       ) |            |
-${AnsiColor.BRIGHT_RED}  /^\  |       /^\ \     / /^\       |  /^\  元阳入体   ${AnsiColor.BRIGHT_YELLOW}  /^\  |       /^\ \     / /^\       |  /^\
-${AnsiColor.BRIGHT_RED}  |O| /^\     (   )|-----|(   )     /^\ |O|     ${AnsiColor.BRIGHT_YELLOW}五毒不侵  |O| /^\     (   )|-----|(   )     /^\ |O|
-${AnsiColor.BRIGHT_RED}  |_| |-| |^-^|---||-----||---|^-^| |-| |_|  九阳之体   ${AnsiColor.BRIGHT_YELLOW}  |_| |-| |^-^|---||-----||---|^-^| |-| |_|
-${AnsiColor.BRIGHT_RED}  |O| |O| |/^\|/^\||  |  ||/^\|/^\| |O| |O|     ${AnsiColor.BRIGHT_YELLOW}化缘神功  |O| |O| |/^\|/^\||  |  ||/^\|/^\| |O| |O|
-${AnsiColor.BRIGHT_RED}  |-| |-| ||_|||_||| /^\ |||_|||_|| |-| |-|  邪魔退散   ${AnsiColor.BRIGHT_YELLOW}  |-| |-| ||_|||_||| /^\ |||_|||_|| |-| |-|
-${AnsiColor.BRIGHT_RED}  |O| |O| |/^\|/^\||(   )||/^\|/^\| |O| |O|     ${AnsiColor.BRIGHT_YELLOW}永不宕机  |O| |O| |/^\|/^\||(   )||/^\|/^\| |O| |O|
-${AnsiColor.BRIGHT_RED}  |-| |-| ||_|||_||||   ||||_|||_|| |-| |-|  永无八哥   ${AnsiColor.BRIGHT_YELLOW}  |-| |-| ||_|||_||||   ||||_|||_|| |-| |-|
-${AnsiColor.BRIGHT_CYAN}
-
-作者：恒宇少年
-链接：https://www.jianshu.com/p/c1f7617c99aa
-來源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+${AnsiColor.BRIGHT_YELLOW}
+                                                                    D
+                                                                    G.
+                                                                    GL
+                                                                    GG
+                                                                    GG:
+                                                                    GGG
+                                                                    GGG
+                                                           ,        GGG
+                                                          jD        GGG
+                                                          GG        GGD
+                                                         .GG       GGGG
+                                                         LGG       GGGD
+                                                        ;GGf     .GGGGG
+                                                        GGG:      GGGGG
+                                                       DGGL      GGGGGL
+                                                      GGGGj     GGGGGG
+                                                     GGGGG.    jGGGGGG
+                                                  . GGGGGD    DGGGGGG,          :
+                                                  .GGGGGG    LGGGGGGG          j
+                                                  GGGGGG.   GGGGGGGD.        G.
+                                                 DGGGGGG   GGGGGGGGf       ,G:
+                                                LGGGGGD   GGGGGGGGG.      LD
+                                               GGGGGGL  .LGGGGGGGL     .fGD
+                                              EGGGGGG   GGGGGGGGG      GGD
+                                             ,GGGGGG.  GGGGGGGGG      GGL
+                                            :DLGGGGL  tGGGGGGGG:     GGG.
+                                            DGGGGGD   GGGGGGGG.     DLGG
+                                       D    GGGGGL.  GGGGGGGGG    .tGGG
+                                      L.   DGGGGGG  .GGGGGGGG.     DGGD
+                                      G.  .GGGGGGi  GGGGGGGGD     GGGG.
+                             ..:iLGGDGGGLL;GGGGGG   GGGGGGGGD     GGGG
+                     .jGDGGGGGGGGGG:GGt   LGGGGGG   GGGGGGGGG     GGGD
+                :GLGGGGGGGGGGGG.    GG.   GGGGGGG   DGGGGGGGG     GGGD
+            tfGDGGGGGGGGGGGi       GGG.   DGGGGGD   GGGGGGGGG     GGGG.
+         DGGGGGGGGGGGGGGL          GGG:   jGGGGGG   GGGGGGGGGt.   GGGGL
+       GGGGGGGGGGGGGGGE           ;DGGj   .GGGGGG:  DGGGGGGGGG.    DGGG.
+    :GGGGGGGGGGGGGGGD.            GGGGD    LGGGGGG.  LGGGGGGGGG.    GGGG
+   LGGGGGGGGGGGGGGGG              GGGGD.   :GGGGGGt  .GGGGGGGGGG.    GGGG
+  LGGGGGGGGGGGGGGGGG              GGGGGG     GGGGGGG  .DGGGGGGGGGG    .DGD
+ GGGGGGGGGGGGGGGGGGD              ;GGGGGG     tGGGGGG    LGGGGGGGGDD:  ..tG,
+fGGGGGGGGGGGGGGGGGGG               GGGGGGG.     LLGGGGD.. .fDGGGGGGGGG,.    t.
+GGGGGGGGGGGGGGGGGGGG               :LGGGGGGD .     .GDDGGi. . .:fGGGGGGGGD:                       .G
+GGGGGGGGGGGGGGGGGGGGD:              ;GGGGGGGGG.          ..,;                                     GG
+GGGGGGGGGGGGGGGGGGGGGLL               GGGGGGGGDDGG;.                                            fDGG
+ GGGGGGGGGGGGGGGGGGGGGGL;               .LGGGDGGDGGGDi.                                       .LGGG:
+  GDGGGGGGGGGGGGGGGGGGGGGGG:                                                                tDGGGG:
+   tDGGGGGGGGGGGGGGGGGGGGGGGGDj                                                          iLGGGGGG:
+    .DGGGGGGGGGGGGGGGGGGGGGGGGGGGGt.                                                 .GGGGGGGGGG
+       fGGGGGGGGGGGGGGGGGGGGGGGGGGGGDGGDj:                                    .iDGGGGGGGGGGGGG.
+       . :GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGDGLDL,:.                ..:tDGGDLGGGGGGGGGGGGGGD.
+            .iLGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGDDDGGGGGGGGGGGGGGGGGGGGGGGGGG:.
+                 .LLLGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGDGt
+                      .GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGD;.      ..
+                      ,GGGGGGG .,fGGGGGDGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGLL:          .G:
+                      DGGGGGGG.         .:;jGGGGGGGGGGGGGGGGGGGLf;..               ;GL
+                      GGGGGGGGD.                                               :GDL;
+                      LGGGGGGGGGj                                         ..GLGGL:
+                       GDGGGGGGGGDG.                                  ,DGGGGGf,
+                        GGGGGGGGGGGGGGG;:                     .,GGGGGGGGGGG:
+                       ..GGGGGGGGGGGGGGGGGGGGGGf;,::::;LGGGGGDGGGGGGGGGD.

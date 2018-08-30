@@ -47,6 +47,9 @@
         <module>Zipkinserver</module>
         <module>ZuulServer</module>
         <module>SpringListener</module>
+        <module>RabbitMqProvider</module>
+        <module>RabbitMqCommon</module>
+        <module>RabbitMqConsumer</module>
     </modules>
     <build>
         <plugins>

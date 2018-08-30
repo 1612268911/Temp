@@ -20,6 +20,9 @@
         <module name="JavaMail" />
         <module name="logindemo (1)" />
         <module name="NewTest" />
+        <module name="RabbitMqCommon" />
+        <module name="RabbitMqConsumer" />
+        <module name="RabbitMqProvider" />
         <module name="SpringConfig" />
         <module name="SpringJpa" />
         <module name="SpringJtaAtomikos" />
@@ -60,6 +63,9 @@
       <module name="logindemo" target="1.8" />
       <module name="logindemo (1)" target="1.8" />
       <module name="NewTest" target="1.8" />
+      <module name="RabbitMqCommon" target="1.6" />
+      <module name="RabbitMqConsumer" target="1.6" />
+      <module name="RabbitMqProvider" target="1.6" />
       <module name="SpringConfig" target="1.6" />
       <module name="SpringJpa" target="1.6" />
       <module name="SpringJtaAtomikos" target="1.8" />
