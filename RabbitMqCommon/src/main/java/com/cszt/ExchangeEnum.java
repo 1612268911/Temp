@@ -13,11 +13,11 @@ public enum ExchangeEnum
     /**
      * 用户注册交换配置枚举
      */
-    USER_REGISTER("user.register.topic.exchange");
+    USER_REGISTER("register.topic.exchange");
 
-    private String value;
+    private String name;
 
-    ExchangeEnum(String value) {
-        this.value = value;
+    ExchangeEnum(String name) {
+        this.name = name;
     }
 }

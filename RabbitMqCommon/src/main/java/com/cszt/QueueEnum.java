@@ -13,8 +13,11 @@ public enum QueueEnum
     /**
      * 用户注册枚举
      */
-    USER_REGISTER("user.register.queue","user.register")
-    ;
+    USER_REGISTER("user.register.queue","user.#"),
+    /**
+     * 发送邮件枚举
+     */
+    SEND_MAIL("user.sendmail","users.*");
     /**
      * 队列名称
      */

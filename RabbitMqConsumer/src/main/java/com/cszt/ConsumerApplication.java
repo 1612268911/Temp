@@ -2,6 +2,7 @@ package com.cszt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @author lilin
@@ -9,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Description:
  */
 @SpringBootApplication
+@ComponentScan(value = "com.cszt")
 public class ConsumerApplication {
     public static void main(String[] args){
         SpringApplication.run(ConsumerApplication.class,args);

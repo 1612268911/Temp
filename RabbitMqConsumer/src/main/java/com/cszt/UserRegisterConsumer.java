@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @RabbitListener(queues = "user.register.queue")
-public class UserConsumer {
+public class UserRegisterConsumer {
     @RabbitHandler
     public void execute(String userId){
         System.out.println("注册成功：userId="+userId);
