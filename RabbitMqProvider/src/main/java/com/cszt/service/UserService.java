@@ -19,7 +19,7 @@ public class UserService {
     private QueueMessageService queueMessageService;
 
     public String send(User user) throws Exception {
-        queueMessageService.send(user.getUserId(), ExchangeEnum.USER_REGISTER, RouteKeyEnum.USER_ROUTE_KEY.getValue());
+        queueMessageService.send(user.getUserId(), ExchangeEnum.USER_REGISTER, "");
         return user.getUserId();
     }
 }

@@ -50,6 +50,7 @@
         <module>RabbitMqProvider</module>
         <module>RabbitMqCommon</module>
         <module>RabbitMqConsumer</module>
+        <module>SpringQuartz</module>
     </modules>
     <build>
         <plugins>

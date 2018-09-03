@@ -42,7 +42,7 @@ public class UserRegisterQueueConfiguration {
     @Bean
     public Binding userRegisterBinding(TopicExchange userTopicExchange,Queue userRegisterQueue){
         log.info("用户注册队列与交换机绑定成功...");
-        return BindingBuilder.bind(userRegisterQueue).to(userTopicExchange).with(QueueEnum.USER_REGISTER.getRoutingKey());
+        return BindingBuilder.bind(userRegisterQueue).to(userTopicExchange).with("");
     }
     /**
      * @Author lilin
@@ -66,6 +66,6 @@ public class UserRegisterQueueConfiguration {
     @Bean
     public Binding sendMailBinding(TopicExchange userTopicExchange,Queue sendMailQueue){
         log.info("邮件队列与交换机绑定成功....");
-        return BindingBuilder.bind(sendMailQueue).to(userTopicExchange).with(QueueEnum.SEND_MAIL.getRoutingKey());
+        return BindingBuilder.bind(sendMailQueue).to(userTopicExchange).with("");
     }
 }

@@ -18,7 +18,7 @@
         <module name="feignserver" />
         <module name="HttpClient" />
         <module name="JavaMail" />
-        <module name="logindemo" />
+        <module name="logindemo (1)" />
         <module name="NewTest" />
         <module name="RabbitMqCommon" />
         <module name="RabbitMqConsumer" />
@@ -29,6 +29,7 @@
         <module name="SpringJwt" />
         <module name="SpringListener" />
         <module name="SpringMoreDatasources" />
+        <module name="SpringQuartz" />
         <module name="SpringRedis" />
         <module name="SpringSecurity" />
         <module name="test" />
@@ -39,10 +40,10 @@
         <module name="ZuulServer" />
       </profile>
       <profile name="Annotation profile for Temp" enabled="true">
-        <sourceOutputDir name="../logindemo/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../logindemo/target/generated-test-sources/test-annotations" />
+        <sourceOutputDir name="../logindemotest/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../logindemotest/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="logindemo (1)" />
+        <module name="logindemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -72,6 +73,7 @@
       <module name="SpringJwt" target="1.8" />
       <module name="SpringListener" target="1.6" />
       <module name="SpringMoreDatasources" target="1.8" />
+      <module name="SpringQuartz" target="1.6" />
       <module name="SpringRedis" target="1.6" />
       <module name="SpringSecurity" target="1.6" />
       <module name="Temp" target="1.6" />

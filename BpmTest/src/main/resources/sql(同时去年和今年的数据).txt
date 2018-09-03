@@ -1,0 +1,10 @@
+        SELECT b.UNIFY_CREDIT_CODE,b.YEAR,a.TARGET_ANNUAL_TAX, AS lastYearTaxTarget a.TARGET_ANNUAL_OUTPUT_VALUE AS lastYearOutputValueTarget,
+        b.TARGET_ANNUAL_TAX AS targetAnnualTax,b.TARGET_ANNUAL_OUTPUT_VALUE AS targetAnnualOutputValue
+        FROM
+        (SELECT t.TARGET_ANNUAL_TAX,t.TARGET_ANNUAL_OUTPUT_VALUE
+        FROM TTC_TAX_YEAR t
+        WHERE t.year = #{yearBefore}
+        ) a
+        ,TTC_TAX_YEAR b WHERE a.UNIFY_CREDIT_CODE = b.UNIFY_CREDIT_CODE
+        AND b.year = #{year}
+        AND b.UNIFY_CREDIT_CODE = #{unifyCreditCode}
