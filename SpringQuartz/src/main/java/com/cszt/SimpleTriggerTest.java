@@ -24,7 +24,8 @@ public class SimpleTriggerTest {
         scheduler.start();
         //定义任务器
         JobDetail jobDetail = JobBuilder.newJob(HelloJob.class)
-                .withIdentity("job1","group1")
+                .withIdentity("job2","group1")
+                .storeDurably(true)
                 .build();
         //定义触发器
 //        Trigger trigger = TriggerBuilder.newTrigger()
@@ -40,14 +41,14 @@ public class SimpleTriggerTest {
         calendar.add(Calendar.SECOND,5);
         Date date = calendar.getTime();
         SimpleTrigger trigger = (SimpleTrigger)TriggerBuilder.newTrigger()
-                .withIdentity("trigger1", "group1")
+                .withIdentity("trigger2", "group1")
                 .startAt(date)                   //开始执行时间
                 .withSchedule(SimpleScheduleBuilder
                                 .simpleSchedule()
-                                .withIntervalInSeconds(2)//2秒一次循环\
+                                .withIntervalInSeconds(2)//2秒一次循环
                                 .withRepeatCount(3)//重复次数
                                 )
-                .forJob("job1", "group1")                 // identify job with name, group strings
+                .forJob("job2", "group1")                 // identify job with name, group strings
                 .build();
 
         //注册任务器和触发器到scheduler中
