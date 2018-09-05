@@ -13,10 +13,10 @@ import java.util.Date;
  * @create 2018/9/3 16:44
  * Description: quartz定时任务测试
  */
-public class QuartzTest {
+public class SimpleTriggerTest {
     Scheduler scheduled = StdSchedulerFactory.getDefaultScheduler();
 
-    public QuartzTest() throws SchedulerException {
+    public SimpleTriggerTest() throws SchedulerException {
 
     }
     public static void main(String[] args) throws SchedulerException, InterruptedException {
