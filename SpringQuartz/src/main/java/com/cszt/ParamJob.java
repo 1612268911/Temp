@@ -12,12 +12,22 @@ import org.quartz.JobExecutionException;
  */
 public class ParamJob implements Job{
 
+    String name;
+
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
         JobDataMap map = jobExecutionContext.getJobDetail().getJobDataMap();
-        String name = map.getString("name");
+        //String name = map.getString("name");
         int age = map.getInt("age");
         boolean isJob = map.getBoolean("isJob");
         System.out.println("name="+name+"  age="+age+"  isJob="+isJob);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
