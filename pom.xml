@@ -51,6 +51,7 @@
         <module>RabbitMqCommon</module>
         <module>RabbitMqConsumer</module>
         <module>SpringQuartz</module>
+        <module>SpringQuartzIntegrated</module>
     </modules>
     <build>
         <plugins>

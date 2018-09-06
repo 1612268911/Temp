@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringListener/SpringListener.iml" filepath="$PROJECT_DIR$/SpringListener/SpringListener.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMoreDatasources/SpringMoreDatasources.iml" filepath="$PROJECT_DIR$/SpringMoreDatasources/SpringMoreDatasources.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringQuartz/SpringQuartz.iml" filepath="$PROJECT_DIR$/SpringQuartz/SpringQuartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringQuartzIntegrated/SpringQuartzIntegrated.iml" filepath="$PROJECT_DIR$/SpringQuartzIntegrated/SpringQuartzIntegrated.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringRedis/SpringRedis.iml" filepath="$PROJECT_DIR$/SpringRedis/SpringRedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" filepath="$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Temp.iml" filepath="$PROJECT_DIR$/.idea/Temp.iml" />
