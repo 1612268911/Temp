@@ -30,7 +30,8 @@
         <module name="SpringListener" />
         <module name="SpringMoreDatasources" />
         <module name="SpringQuartz" />
-        <module name="SpringQuartzIntegrated" />
+        <module name="springquartzintegrated" />
+        <module name="springquartzintegrated (1)" />
         <module name="SpringRedis" />
         <module name="SpringSecurity" />
         <module name="test" />
@@ -75,7 +76,9 @@
       <module name="SpringListener" target="1.6" />
       <module name="SpringMoreDatasources" target="1.8" />
       <module name="SpringQuartz" target="1.6" />
+      <module name="springquartzintegrated" target="1.6" />
       <module name="SpringQuartzIntegrated" target="1.6" />
+      <module name="springquartzintegrated (1)" target="1.6" />
       <module name="SpringRedis" target="1.6" />
       <module name="SpringSecurity" target="1.6" />
       <module name="Temp" target="1.6" />

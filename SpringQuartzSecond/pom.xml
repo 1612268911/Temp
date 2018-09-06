@@ -10,7 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.cszt</groupId>
-    <artifactId>springquartzintegrated</artifactId>
+    <artifactId>springquartzsecond</artifactId>
 
     <dependencies>
         <dependency>

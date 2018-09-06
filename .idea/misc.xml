@@ -37,6 +37,8 @@
         <option value="$PROJECT_DIR$/SpringJtaAtomikos/pom.xml" />
         <option value="$PROJECT_DIR$/SpringJwt/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringQuartzFrist/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringQuartzSecond/pom.xml" />
       </list>
     </option>
   </component>
