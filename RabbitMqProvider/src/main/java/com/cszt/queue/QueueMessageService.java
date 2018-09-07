@@ -2,6 +2,7 @@ package com.cszt.queue;
 
 import com.cszt.ExchangeEnum;
 import com.cszt.QueueEnum;
+import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 
 /**
@@ -18,4 +19,13 @@ public interface QueueMessageService{
      * @throws Exception
      */
     public void send(Object message, ExchangeEnum exchangeEnum, String routeKey) throws Exception;
+    /**
+     * rabbitmq消息延迟消费
+     * @param messageContent 消息内容
+     * @param exchange 交换机名
+     * @param routeKey
+     * @param delayTimes
+     * @throws Exception
+     */
+    public void sendDelayMessage( Object messageContent,String exchange, String routeKey,final long delayTimes) throws Exception;
 }

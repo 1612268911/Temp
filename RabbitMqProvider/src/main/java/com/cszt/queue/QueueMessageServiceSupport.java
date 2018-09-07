@@ -2,6 +2,7 @@ package com.cszt.queue;
 
 import com.cszt.ExchangeEnum;
 import com.cszt.QueueEnum;
+import org.springframework.amqp.core.Exchange;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.amqp.rabbit.support.CorrelationData;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,5 +29,13 @@ public class QueueMessageServiceSupport
     public void send(Object message, ExchangeEnum exchangeEnum, String routeKey) throws Exception {
         //发送消息到消息队列
         rabbitTemplate.convertAndSend(exchangeEnum.getName(),routeKey,message);
+    }
+
+    @Override
+    public void sendDelayMessage(Object messageContent, String exchange, String routeKey, long delayTimes) throws Exception {
+        rabbitTemplate.convertAndSend(exchange,routeKey,messageContent,message->{
+            message.getMessageProperties().setExpiration(String.valueOf(delayTimes));
+            return message;
+        });
     }
 }
