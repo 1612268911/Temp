@@ -1,4 +1,4 @@
-/**
+package lambda; /**
  * Copyright (C), 2015-2018, XXX有限公司
  * FileName: Optional
  * Author:   jj
@@ -12,7 +12,6 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import java.util.function.Consumer;
 
 /**
  * 〈一句话功能简述〉<br>

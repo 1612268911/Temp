@@ -1,4 +1,4 @@
-/**
+package lambda; /**
  * Copyright (C), 2015-2018, XXX有限公司
  * FileName: LambdaApplication
  * Author:   jj

@@ -1,4 +1,4 @@
-/**
+package lambda; /**
  * Copyright (C), 2015-2018, XXX有限公司
  * FileName: PredicateTest
  * Author:   jj
@@ -9,7 +9,6 @@
  * 作者姓名           修改时间           版本号              描述
  */
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;

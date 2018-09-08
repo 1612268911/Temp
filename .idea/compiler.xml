@@ -81,7 +81,7 @@
       <module name="springquartzintegrated (1)" target="1.6" />
       <module name="SpringRedis" target="1.6" />
       <module name="SpringSecurity" target="1.6" />
-      <module name="Temp" target="1.6" />
+      <module name="Temp" target="1.8" />
       <module name="test" target="1.6" />
       <module name="testlist" target="1.8" />
       <module name="XXL-job-center" target="1.6" />

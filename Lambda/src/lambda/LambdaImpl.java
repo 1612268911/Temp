@@ -1,8 +1,8 @@
-/**
+package lambda; /**
  * Copyright (C), 2015-2018, XXX有限公司
- * FileName: lambda2
+ * FileName: LambdaImpl
  * Author:   jj
- * Date:     2018/6/27 10:48
+ * Date:     2018/7/24 16:00
  * Description:
  * History:
  * <author>          <time>          <version>          <desc>
@@ -14,9 +14,13 @@
  * 〈〉
  *
  * @author jj
- * @create 2018/6/27
+ * @create 2018/7/24
  * @since 1.0.0
  */
-public interface Lambda {
-    String test();
+public class LambdaImpl implements Lambda{
+
+    @Override
+    public String test() {
+        return "LambdaImpl.test";
+    }
 }
