@@ -53,6 +53,9 @@
         <module>SpringQuartz</module>
         <module>SpringQuartzSecond</module>
         <module>SpringQuartzFrist</module>
+        <module>Boot-Dubbo-Provider</module>
+        <module>boot-dubbo-consumer</module>
+        <module>boot-dubbo-api</module>
     </modules>
     <build>
         <plugins>

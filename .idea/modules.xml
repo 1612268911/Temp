@@ -27,6 +27,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Temp.iml" filepath="$PROJECT_DIR$/.idea/Temp.iml" />
       <module fileurl="file://$PROJECT_DIR$/XXL-job-center/XXL-job-center.iml" filepath="$PROJECT_DIR$/XXL-job-center/XXL-job-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZuulServer/ZuulServer.iml" filepath="$PROJECT_DIR$/ZuulServer/ZuulServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-dubbo-api/boot-dubbo-api.iml" filepath="$PROJECT_DIR$/boot-dubbo-api/boot-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-dubbo-consumer/boot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/boot-dubbo-consumer/boot-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-dubbo-provider/boot-dubbo-provider.iml" filepath="$PROJECT_DIR$/boot-dubbo-provider/boot-dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/Configserver/configserver.iml" filepath="$PROJECT_DIR$/Configserver/configserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/Project/demo.iml" filepath="$PROJECT_DIR$/Project/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/FeignServer/feignserver.iml" filepath="$PROJECT_DIR$/FeignServer/feignserver.iml" />
