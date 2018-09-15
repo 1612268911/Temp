@@ -25,7 +25,6 @@
       <module fileurl="file://$PROJECT_DIR$/SpringRedis/SpringRedis.iml" filepath="$PROJECT_DIR$/SpringRedis/SpringRedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" filepath="$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Temp.iml" filepath="$PROJECT_DIR$/.idea/Temp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/XXL-job-center/XXL-job-center.iml" filepath="$PROJECT_DIR$/XXL-job-center/XXL-job-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZuulServer/ZuulServer.iml" filepath="$PROJECT_DIR$/ZuulServer/ZuulServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-dubbo-api/boot-dubbo-api.iml" filepath="$PROJECT_DIR$/boot-dubbo-api/boot-dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-dubbo-consumer/boot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/boot-dubbo-consumer/boot-dubbo-consumer.iml" />

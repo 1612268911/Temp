@@ -1,0 +1,15 @@
+server:
+  port: 9002
+## Dubbo 服务提供者配置
+spring:
+  application:
+    name: dubbo-consumer
+  dubbo:
+    registry:
+      address: zookeeper://localhost:2181
+    scan: com.cszt.controller
+
+#spring.dubbo.registry.address=zookeeper://xxx.xxx.xxx.xxx:2181
+#spring.dubbo.protocol.name=dubbo
+#spring.dubbo.protocol.port=20882
+#spring.dubbo.scan=com.xxx.school.service
