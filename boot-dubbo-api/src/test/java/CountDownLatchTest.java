@@ -24,7 +24,6 @@ class Test1 implements Runnable{
     }
     @Override
     public void run(){
-
         try {
             cdl.await();
             System.out.println("线程test1启动完毕...."+System.currentTimeMillis());
@@ -42,7 +41,6 @@ class Test2 implements Runnable{
     }
     @Override
     public void run(){
-
         try{
             cdl.await();
             System.out.println("线程test2启动完毕...."+System.currentTimeMillis());
