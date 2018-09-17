@@ -22,7 +22,7 @@
         <module name="feignserver" />
         <module name="HttpClient" />
         <module name="JavaMail" />
-        <module name="logindemo" />
+        <module name="logindemo (1)" />
         <module name="NewTest" />
         <module name="RabbitMqCommon" />
         <module name="RabbitMqConsumer" />
@@ -44,11 +44,11 @@
         <module name="zipkinserver" />
         <module name="ZuulServer" />
       </profile>
-      <profile name="Annotation profile for Temp" enabled="true">
-        <sourceOutputDir name="../logindemo/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../logindemo/target/generated-test-sources/test-annotations" />
+      <profile name="Annotation profile for logindemo" enabled="true">
+        <sourceOutputDir name="../logindemotest/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../logindemotest/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="logindemo (1)" />
+        <module name="logindemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
