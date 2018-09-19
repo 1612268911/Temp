@@ -34,6 +34,6 @@ public class Testlist
 {
 	public static void main(String[] args)
 	{
-		SpringApplication.run(Testlist.class, args);
+		new SpringApplicationBuilder(Testlist.class).web(true).run(args);
 	}
 }

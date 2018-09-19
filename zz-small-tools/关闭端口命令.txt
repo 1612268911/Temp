@@ -1,0 +1,3 @@
+netstat  -aon|findstr  "8080"  （8080为需要关闭的端口）
+
+taskkill /pid 3672 /F （3672为端口的pid号）

@@ -82,10 +82,10 @@ public class ZkClientTest {
         //轮询
         currentNode = list.get(requestCount % list.size());
         requestCount++;
-        //随机
-//        int index = (int)(Math.random()*list.size());
+//        //随机
+//        int index = (int) (Math.random() * list.size());
 //        currentNode = list.get(index);
-//        requestCount=index;
+//        requestCount = index;
     }
 
     public String getCurrentNode() {

@@ -1,0 +1,23 @@
+ssh-keygen -t rsa -C "C"lilin01@szzt.com.cn""
+
+cat ~/.ssh/id_rsa.pub
+
+git add .
+
+git commit -m message
+
+git pull
+
+git push
+
+git stash 
+
+git stash pop
+
+git diff
+
+git status
+
+:q!
+
+
