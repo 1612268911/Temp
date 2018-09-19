@@ -14,7 +14,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @author lilin
  * @create 2018/9/19 10:41
  * description: zookeeper zkClient连接
- * 负载均衡方法 轮询
+ * 负载均衡方法 轮询、随机
  */
 public class ZkClientTest {
     private ZkClient zkClient;
@@ -27,18 +27,19 @@ public class ZkClientTest {
 
     private String parentPath = "/root";
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ZkClientTest zkClientTest = new ZkClientTest();
         zkClientTest.init();
-        while(true){
+        while (true) {
             System.out.println("*******************start**********************");
             Scanner sc = new Scanner(System.in);
             String str = sc.nextLine();
             zkClientTest.getChildNode();
-            System.out.println("currentNode--->"+zkClientTest.getCurrentNode());
-            System.out.println("requestCount-->"+ zkClientTest.getRequestCount());
+            System.out.println("currentNode--->" + zkClientTest.getCurrentNode());
+            System.out.println("requestCount-->" + zkClientTest.getRequestCount());
         }
     }
+
     /**
      * @author lilin
      * @description
@@ -46,12 +47,12 @@ public class ZkClientTest {
      * @param:
      * @return:
      */
-    public void init(){
+    public void init() {
         //连接
-        zkClient = new ZkClient("localhost:2181",3000);
-        if(!zkClient.exists(parentPath)){
+        zkClient = new ZkClient("localhost:2181", 3000);
+        if (!zkClient.exists(parentPath)) {
             //创建持久节点
-            zkClient.create(parentPath,"jjjjj".getBytes(), CreateMode.PERSISTENT);
+            zkClient.create(parentPath, "jjjjj".getBytes(), CreateMode.PERSISTENT);
         }
         /**
          * 设置监听
@@ -59,10 +60,11 @@ public class ZkClientTest {
         zkClient.subscribeChildChanges(parentPath, new IZkChildListener() {
             @Override
             public void handleChildChange(String s, List<String> list) throws Exception {
-                System.out.println("s-->"+s+"    list-->"+list);
+                System.out.println("s-->" + s + "    list-->" + list);
             }
         });
     }
+
     /**
      * @author lilin
      * @description 获取所有子节点
@@ -70,21 +72,27 @@ public class ZkClientTest {
      * @param:
      * @return:
      */
-    public void getChildNode(){
+    public void getChildNode() {
         list = zkClient.getChildren(parentPath);
-        if(list == null || list.size()==0){
-            System.out.println(parentPath+"当前没有子节点...");
+        if (list == null || list.size() == 0) {
+            System.out.println(parentPath + "当前没有子节点...");
             requestCount++;
             return;
         }
         //轮询
-        currentNode = list.get(requestCount%list.size());
+        currentNode = list.get(requestCount % list.size());
         requestCount++;
+        //随机
+//        int index = (int)(Math.random()*list.size());
+//        currentNode = list.get(index);
+//        requestCount=index;
     }
-    public String getCurrentNode(){
+
+    public String getCurrentNode() {
         return currentNode;
     }
-    public Integer getRequestCount(){
+
+    public Integer getRequestCount() {
         return requestCount;
     }
 }
