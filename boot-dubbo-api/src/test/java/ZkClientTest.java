@@ -27,8 +27,6 @@ public class ZkClientTest {
 
     private String parentPath = "/root";
 
-    private Lock lock = new ReentrantLock();
-
     public static void main(String[] args){
         ZkClientTest zkClientTest = new ZkClientTest();
         zkClientTest.init();
