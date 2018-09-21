@@ -44,7 +44,7 @@
         <module name="zipkinserver" />
         <module name="ZuulServer" />
       </profile>
-      <profile name="Annotation profile for logindemo" enabled="true">
+      <profile name="Annotation profile for Temp" enabled="true">
         <sourceOutputDir name="../logindemotest/target/generated-sources/annotations" />
         <sourceTestOutputDir name="../logindemotest/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
