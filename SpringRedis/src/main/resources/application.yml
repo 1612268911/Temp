@@ -1,5 +1,7 @@
 mybatis:
   type-aliases-package: com.cszt.domain
+  mapper-locations: classpath:UserMapper.xml
+  config-location: classpath:MybatisConfig.xml
 spring:
   profiles:
     active: pro  #当前使用环境配置application-pro

@@ -10,6 +10,8 @@
  */
 package com.cszt.domain;
 
+import java.io.Serializable;
+
 /**
  * 〈一句话功能简述〉<br>
  * 〈用户实体〉
@@ -18,7 +20,8 @@ package com.cszt.domain;
  * @create 2018/8/14
  * @since 1.0.0
  */
-public class User{
+public class User implements Serializable {
+    private static final long serialVersionUID = -9008998379744992884L;
     private Integer id;
     private String username;
     private String password;

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cszt.dao.UserJpa">
+    <cache type="com.cszt.config.RedisConfig"/>
+    <select id="findOne" parameterType="java.lang.Integer" resultType="com.cszt.domain.User">
+        select u.u_id as id,u.u_username as username,u.u_password as password from newUser u where u.u_id = #{id}
+    </select>
+</mapper>

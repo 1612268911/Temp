@@ -24,6 +24,5 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface UserJpa {
-    @Select("select u.u_id as id,u.u_username as username,u.u_password as password from newUser u where u.u_id = #{id}")
     User findOne(Integer id);
 }
