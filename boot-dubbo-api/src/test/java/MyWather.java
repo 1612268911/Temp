@@ -9,7 +9,7 @@ import java.util.concurrent.CountDownLatch;
 /**
  * @author lilin
  * @create 2018/9/14 10:08
- * description:
+ * description: zookeeper监听watcher
  */
 public class MyWather implements Watcher {
     private CountDownLatch countDownLatch = new CountDownLatch(1);
