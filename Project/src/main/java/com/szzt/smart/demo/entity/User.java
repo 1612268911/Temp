@@ -46,7 +46,7 @@ public class User implements Serializable{
 
     @Override
     public String toString() {
-        return "User{" +
+        return "domain{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", pwd='" + pwd + '\'' +

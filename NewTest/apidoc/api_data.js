@@ -94,7 +94,7 @@ define({ "api": [
         "Success 200": [
           {
             "group": "Success 200",
-            "type": "User",
+            "type": "domain",
             "optional": false,
             "field": "user",
             "description": "<p>用户</p>"

@@ -4,7 +4,7 @@
     <select id="getUserclass" resultMap="resultmap" parameterType="int">
         select * from newuser u,class c where u.cid = c.cid and id = #{id}
     </select>
-    <resultMap id="resultmap" type="com.ztdz.User">
+    <resultMap id="resultmap" type="com.ztdz.com.cszt.domain.User">
         <id property="id" column="id"/>
         <result property="username" column="username"/>
         <result property="password" column="password"/>

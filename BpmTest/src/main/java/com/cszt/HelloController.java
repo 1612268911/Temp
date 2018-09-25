@@ -105,7 +105,7 @@ public class HelloController {
 //        group.setName("受理部门");
 //        group.setType("assignment");
 //        identityService.saveGroup(group);
-//        User user = identityService.newUser("yty");
+//        domain user = identityService.newUser("yty");
 //        user.setId("bomgj");
 //        user.setFirstName("jj");
 //        user.setLastName("tt");

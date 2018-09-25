@@ -4208,7 +4208,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.szzt.smart.d
 2018-06-08 09:22:53.718  INFO 18624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-08 09:22:53.718  INFO 18624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-08 09:22:54.175  INFO 18624 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5af3afd9: startup date [Fri Jun 08 09:22:52 CST 2018]; root of context hierarchy
-2018-06-08 09:22:54.212  INFO 18624 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.User> com.szzt.smart.demo.com.cszt.UserControllerontroller.getAllUser()
+2018-06-08 09:22:54.212  INFO 18624 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User> com.szzt.smart.demo.com.cszt.UserControllerontroller.getAllUser()
 2018-06-08 09:22:54.215  INFO 18624 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-08 09:22:54.216  INFO 18624 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-08 09:22:54.233  INFO 18624 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4248,7 +4248,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.szzt.smart.d
 2018-06-08 09:25:40.822  INFO 9012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-08 09:25:40.822  INFO 9012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-08 09:25:41.403  INFO 9012 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5af3afd9: startup date [Fri Jun 08 09:25:39 CST 2018]; root of context hierarchy
-2018-06-08 09:25:41.435  INFO 9012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.User> com.szzt.smart.demo.com.cszt.UserControllerontroller.getAllUser()
+2018-06-08 09:25:41.435  INFO 9012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User> com.szzt.smart.demo.com.cszt.UserControllerontroller.getAllUser()
 2018-06-08 09:25:41.438  INFO 9012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-08 09:25:41.438  INFO 9012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-08 09:25:41.453  INFO 9012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4279,7 +4279,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.szzt.smart.d
 2018-06-08 11:32:12.453  INFO 27360 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-08 11:32:12.453  INFO 27360 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-08 11:32:12.970  INFO 27360 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5af3afd9: startup date [Fri Jun 08 11:32:11 CST 2018]; root of context hierarchy
-2018-06-08 11:32:13.004  INFO 27360 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.User> com.szzt.smart.demo.com.cszt.UserControllerontroller.getAllUser()
+2018-06-08 11:32:13.004  INFO 27360 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User> com.szzt.smart.demo.com.cszt.UserControllerontroller.getAllUser()
 2018-06-08 11:32:13.004  INFO 27360 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-08 11:32:13.004  INFO 27360 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-08 11:32:13.024  INFO 27360 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4316,7 +4316,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.szzt.smart.d
 2018-06-08 11:34:34.709  INFO 28272 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-08 11:34:34.709  INFO 28272 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-08 11:34:35.120  INFO 28272 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5af3afd9: startup date [Fri Jun 08 11:34:33 CST 2018]; root of context hierarchy
-2018-06-08 11:34:35.151  INFO 28272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.User> com.szzt.smart.demo.com.cszt.controllerserController.getAllUser()
+2018-06-08 11:34:35.151  INFO 28272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User> com.szzt.smart.demo.com.cszt.controllerserController.getAllUser()
 2018-06-08 11:34:35.154  INFO 28272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-08 11:34:35.154  INFO 28272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-08 11:34:35.170  INFO 28272 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4347,7 +4347,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.szzt.smart.d
 2018-06-08 11:35:31.880  INFO 12976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-08 11:35:31.880  INFO 12976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-08 11:35:32.299  INFO 12976 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5af3afd9: startup date [Fri Jun 08 11:35:30 CST 2018]; root of context hierarchy
-2018-06-08 11:35:32.334  INFO 12976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.User> com.szzt.smart.demo.com.cszt.controllerserController.getAllUser()
+2018-06-08 11:35:32.334  INFO 12976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User> com.szzt.smart.demo.com.cszt.controllerserController.getAllUser()
 2018-06-08 11:35:32.336  INFO 12976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-08 11:35:32.337  INFO 12976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-08 11:35:32.352  INFO 12976 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4378,7 +4378,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.szzt.smart.d
 2018-06-08 11:35:58.093  INFO 25808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-08 11:35:58.093  INFO 25808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-08 11:35:58.822  INFO 25808 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ed5eb72: startup date [Fri Jun 08 11:35:56 CST 2018]; root of context hierarchy
-2018-06-08 11:35:58.864  INFO 25808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.User> com.szzt.smart.demo.com.cszt.controllerserController.getAllUser()
+2018-06-08 11:35:58.864  INFO 25808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User> com.szzt.smart.demo.com.cszt.controllerserController.getAllUser()
 2018-06-08 11:35:58.867  INFO 25808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-08 11:35:58.868  INFO 25808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-08 11:35:58.891  INFO 25808 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4409,7 +4409,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.szzt.smart.d
 2018-06-08 11:54:58.632  INFO 27308 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-08 11:54:58.632  INFO 27308 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-08 11:54:59.173  INFO 27308 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ed5eb72: startup date [Fri Jun 08 11:54:57 CST 2018]; root of context hierarchy
-2018-06-08 11:54:59.223  INFO 27308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.User> com.szzt.smart.demo.com.cszt.UserControllerontroller.getAllUser()
+2018-06-08 11:54:59.223  INFO 27308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User> com.szzt.smart.demo.com.cszt.UserControllerontroller.getAllUser()
 2018-06-08 11:54:59.223  INFO 27308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-08 11:54:59.223  INFO 27308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-08 11:54:59.243  INFO 27308 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4443,7 +4443,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.szzt.smart.d
 2018-06-08 15:59:10.020  INFO 38160 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-08 15:59:10.020  INFO 38160 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-08 15:59:10.528  INFO 38160 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Fri Jun 08 15:59:08 CST 2018]; root of context hierarchy
-2018-06-08 15:59:10.567  INFO 38160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
+2018-06-08 15:59:10.567  INFO 38160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
 2018-06-08 15:59:10.568  INFO 38160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-08 15:59:10.569  INFO 38160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-08 15:59:10.584  INFO 38160 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4546,7 +4546,7 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-08 15:59:25.806  INFO 41596 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-08 15:59:25.806  INFO 41596 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-08 15:59:26.236  INFO 41596 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5af3afd9: startup date [Fri Jun 08 15:59:24 CST 2018]; root of context hierarchy
-2018-06-08 15:59:26.268  INFO 41596 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
+2018-06-08 15:59:26.268  INFO 41596 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
 2018-06-08 15:59:26.270  INFO 41596 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-08 15:59:26.270  INFO 41596 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-08 15:59:26.286  INFO 41596 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4577,7 +4577,7 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-08 16:03:28.631  INFO 38032 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-08 16:03:28.632  INFO 38032 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-08 16:03:29.053  INFO 38032 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5af3afd9: startup date [Fri Jun 08 16:03:27 CST 2018]; root of context hierarchy
-2018-06-08 16:03:29.086  INFO 38032 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
+2018-06-08 16:03:29.086  INFO 38032 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
 2018-06-08 16:03:29.088  INFO 38032 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-08 16:03:29.088  INFO 38032 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-08 16:03:29.103  INFO 38032 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4611,7 +4611,7 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-12 14:50:39.676  INFO 20624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 14:50:39.676  INFO 20624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 14:50:40.144  INFO 20624 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e005c4b: startup date [Tue Jun 12 14:50:38 CST 2018]; root of context hierarchy
-2018-06-12 14:50:40.179  INFO 20624 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
+2018-06-12 14:50:40.179  INFO 20624 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
 2018-06-12 14:50:40.181  INFO 20624 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-12 14:50:40.181  INFO 20624 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-12 14:50:40.197  INFO 20624 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4626,49 +4626,49 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-12 14:51:20.200 DEBUG 20624 --- [http-nio-8080-exec-3] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:51:20.215 DEBUG 20624 --- [http-nio-8080-exec-3] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:51:20.237 DEBUG 20624 --- [http-nio-8080-exec-3] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 14:51:20.238  INFO 20624 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 14:51:20.238  INFO 20624 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 14:51:20.238 DEBUG 20624 --- [http-nio-8080-exec-3] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:51:20.239 DEBUG 20624 --- [http-nio-8080-exec-3] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:51:20.239 DEBUG 20624 --- [http-nio-8080-exec-3] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
 2018-06-12 14:51:24.339 DEBUG 20624 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:51:24.339 DEBUG 20624 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:51:24.340 DEBUG 20624 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 14:51:24.340  INFO 20624 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 14:51:24.340  INFO 20624 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 14:51:24.340 DEBUG 20624 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:51:24.341 DEBUG 20624 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:51:24.341 DEBUG 20624 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
 2018-06-12 14:51:25.671 DEBUG 20624 --- [http-nio-8080-exec-4] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:51:25.671 DEBUG 20624 --- [http-nio-8080-exec-4] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:51:25.672 DEBUG 20624 --- [http-nio-8080-exec-4] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 14:51:25.672  INFO 20624 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 14:51:25.672  INFO 20624 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 14:51:25.672 DEBUG 20624 --- [http-nio-8080-exec-4] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:51:25.672 DEBUG 20624 --- [http-nio-8080-exec-4] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:51:25.673 DEBUG 20624 --- [http-nio-8080-exec-4] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
 2018-06-12 14:51:26.902 DEBUG 20624 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:51:26.903 DEBUG 20624 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:51:26.904 DEBUG 20624 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
-2018-06-12 14:51:26.904  INFO 20624 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 14:51:26.904  INFO 20624 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 14:51:26.904 DEBUG 20624 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:51:26.905 DEBUG 20624 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:51:26.906 DEBUG 20624 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
 2018-06-12 14:54:09.365 DEBUG 20624 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:54:09.365 DEBUG 20624 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:54:09.366 DEBUG 20624 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 14:54:09.366  INFO 20624 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 14:54:09.366  INFO 20624 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 14:54:09.366 DEBUG 20624 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:54:09.366 DEBUG 20624 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:54:09.367 DEBUG 20624 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
 2018-06-12 14:54:20.082 DEBUG 20624 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:54:20.083 DEBUG 20624 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:54:20.084 DEBUG 20624 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 14:54:20.084  INFO 20624 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 14:54:20.084  INFO 20624 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 14:54:20.084 DEBUG 20624 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:54:20.084 DEBUG 20624 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:54:20.085 DEBUG 20624 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
 2018-06-12 14:54:22.399 DEBUG 20624 --- [http-nio-8080-exec-10] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:54:22.400 DEBUG 20624 --- [http-nio-8080-exec-10] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:54:22.401 DEBUG 20624 --- [http-nio-8080-exec-10] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
-2018-06-12 14:54:22.401  INFO 20624 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 14:54:22.401  INFO 20624 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 14:54:22.402 DEBUG 20624 --- [http-nio-8080-exec-10] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:54:22.403 DEBUG 20624 --- [http-nio-8080-exec-10] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:54:22.404 DEBUG 20624 --- [http-nio-8080-exec-10] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
@@ -4688,7 +4688,7 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-12 14:56:21.303  INFO 52848 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 14:56:21.303  INFO 52848 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 14:56:21.736  INFO 52848 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4567f35d: startup date [Tue Jun 12 14:56:20 CST 2018]; root of context hierarchy
-2018-06-12 14:56:21.769  INFO 52848 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
+2018-06-12 14:56:21.769  INFO 52848 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
 2018-06-12 14:56:21.770  INFO 52848 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-12 14:56:21.771  INFO 52848 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-12 14:56:21.787  INFO 52848 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4703,15 +4703,15 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-12 14:56:25.900 DEBUG 52848 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:56:25.912 DEBUG 52848 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:56:25.923 DEBUG 52848 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
-2018-06-12 14:56:25.924  INFO 52848 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 14:56:26.955  INFO 52848 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 14:56:28.144  INFO 52848 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 14:56:29.097  INFO 52848 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 14:56:25.924  INFO 52848 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 14:56:26.955  INFO 52848 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 14:56:28.144  INFO 52848 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 14:56:29.097  INFO 52848 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 14:58:43.886 DEBUG 52848 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:58:43.886 DEBUG 52848 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:58:43.887 DEBUG 52848 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
-2018-06-12 14:58:43.887  INFO 52848 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 14:58:45.038  INFO 52848 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 14:58:43.887  INFO 52848 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 14:58:45.038  INFO 52848 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 14:59:06.038  INFO 47560 --- [main] com.szzt.smart.demo.Demo                 : Starting Demo on DESKTOP-302RR5M with PID 47560 (E:\Temp\Project\target\classes started by jj in E:\Temp\Project)
 2018-06-12 14:59:06.041 DEBUG 47560 --- [main] com.szzt.smart.demo.Demo                 : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
 2018-06-12 14:59:06.041  INFO 47560 --- [main] com.szzt.smart.demo.Demo                 : No active profile set, falling back to default profiles: default
@@ -4728,7 +4728,7 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-12 14:59:07.225  INFO 47560 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 14:59:07.225  INFO 47560 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 14:59:07.660  INFO 47560 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4567f35d: startup date [Tue Jun 12 14:59:06 CST 2018]; root of context hierarchy
-2018-06-12 14:59:07.695  INFO 47560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
+2018-06-12 14:59:07.695  INFO 47560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
 2018-06-12 14:59:07.697  INFO 47560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-12 14:59:07.697  INFO 47560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-12 14:59:07.715  INFO 47560 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4743,59 +4743,59 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-12 14:59:10.398 DEBUG 47560 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:59:10.410 DEBUG 47560 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:59:10.423 DEBUG 47560 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
-2018-06-12 14:59:10.423  INFO 47560 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 14:59:12.792  INFO 47560 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 14:59:10.423  INFO 47560 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 14:59:12.792  INFO 47560 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 14:59:27.865 DEBUG 47560 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:59:27.865 DEBUG 47560 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 2(Integer)
 2018-06-12 14:59:27.866 DEBUG 47560 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 14:59:27.866  INFO 47560 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_2->com.ztdz.User{id=2, name='222', pwd='222'}
+2018-06-12 14:59:27.866  INFO 47560 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
 2018-06-12 14:59:32.686 DEBUG 47560 --- [http-nio-8080-exec-8] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:59:32.686 DEBUG 47560 --- [http-nio-8080-exec-8] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 3(Integer)
 2018-06-12 14:59:32.687 DEBUG 47560 --- [http-nio-8080-exec-8] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
-2018-06-12 14:59:32.687  INFO 47560 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_3->com.ztdz.User{id=3, name='333', pwd='333'}
+2018-06-12 14:59:32.687  INFO 47560 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_3->com.ztdz.com.cszt.domain.User{id=3, name='333', pwd='333'}
 2018-06-12 14:59:36.583 DEBUG 47560 --- [http-nio-8080-exec-9] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:59:36.583 DEBUG 47560 --- [http-nio-8080-exec-9] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:59:36.584 DEBUG 47560 --- [http-nio-8080-exec-9] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
-2018-06-12 14:59:36.585  INFO 47560 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 14:59:36.585  INFO 47560 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 14:59:51.022 DEBUG 47560 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 14:59:51.022 DEBUG 47560 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 14:59:51.023 DEBUG 47560 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
-2018-06-12 14:59:51.023  INFO 47560 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 14:59:57.717  INFO 47560 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 14:59:51.023  INFO 47560 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 14:59:57.717  INFO 47560 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:00:03.297 DEBUG 47560 --- [http-nio-8080-exec-5] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 15:00:03.297 DEBUG 47560 --- [http-nio-8080-exec-5] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 15:00:03.298 DEBUG 47560 --- [http-nio-8080-exec-5] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 15:00:03.299  INFO 47560 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:00:03.299  INFO 47560 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:00:19.711 DEBUG 47560 --- [http-nio-8080-exec-8] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 15:00:19.712 DEBUG 47560 --- [http-nio-8080-exec-8] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 15:00:19.712 DEBUG 47560 --- [http-nio-8080-exec-8] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 15:00:19.714  INFO 47560 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:00:20.889  INFO 47560 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:00:21.725  INFO 47560 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:00:28.784  INFO 47560 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:00:19.714  INFO 47560 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:00:20.889  INFO 47560 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:00:21.725  INFO 47560 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:00:28.784  INFO 47560 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:00:30.216 DEBUG 47560 --- [http-nio-8080-exec-5] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 15:00:30.217 DEBUG 47560 --- [http-nio-8080-exec-5] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 15:00:30.218 DEBUG 47560 --- [http-nio-8080-exec-5] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
-2018-06-12 15:00:30.219  INFO 47560 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:00:31.125  INFO 47560 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:00:30.219  INFO 47560 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:00:31.125  INFO 47560 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:00:45.015 DEBUG 47560 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 15:00:45.015 DEBUG 47560 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 15:00:45.016 DEBUG 47560 --- [http-nio-8080-exec-2] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 15:00:45.016  INFO 47560 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:00:47.013  INFO 47560 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:00:45.016  INFO 47560 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:00:47.013  INFO 47560 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:00:56.336 DEBUG 47560 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 15:00:56.336 DEBUG 47560 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 15:00:56.337 DEBUG 47560 --- [http-nio-8080-exec-7] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
-2018-06-12 15:00:56.337  INFO 47560 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:00:57.709  INFO 47560 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:01:03.049  INFO 47560 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:01:04.214  INFO 47560 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:01:05.799  INFO 47560 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:00:56.337  INFO 47560 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:00:57.709  INFO 47560 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:01:03.049  INFO 47560 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:01:04.214  INFO 47560 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:01:05.799  INFO 47560 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:01:18.655 DEBUG 47560 --- [http-nio-8080-exec-8] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 15:01:18.656 DEBUG 47560 --- [http-nio-8080-exec-8] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 15:01:18.657 DEBUG 47560 --- [http-nio-8080-exec-8] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 15:01:18.657  INFO 47560 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:01:20.175  INFO 47560 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:01:18.657  INFO 47560 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:01:20.175  INFO 47560 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:01:43.625  INFO 29836 --- [main] com.szzt.smart.demo.Demo                 : Starting Demo on DESKTOP-302RR5M with PID 29836 (E:\Temp\Project\target\classes started by jj in E:\Temp\Project)
 2018-06-12 15:01:43.628 DEBUG 29836 --- [main] com.szzt.smart.demo.Demo                 : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
 2018-06-12 15:01:43.629  INFO 29836 --- [main] com.szzt.smart.demo.Demo                 : No active profile set, falling back to default profiles: default
@@ -4812,7 +4812,7 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-12 15:01:44.812  INFO 29836 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 15:01:44.812  INFO 29836 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 15:01:45.243  INFO 29836 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4567f35d: startup date [Tue Jun 12 15:01:43 CST 2018]; root of context hierarchy
-2018-06-12 15:01:45.277  INFO 29836 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
+2018-06-12 15:01:45.277  INFO 29836 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
 2018-06-12 15:01:45.279  INFO 29836 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-12 15:01:45.279  INFO 29836 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-12 15:01:45.295  INFO 29836 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4827,25 +4827,25 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-12 15:01:50.946 DEBUG 29836 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 15:01:50.958 DEBUG 29836 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 15:01:50.968 DEBUG 29836 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 15:01:50.969  INFO 29836 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:01:51.736  INFO 29836 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:01:52.803  INFO 29836 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:01:53.974  INFO 29836 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:01:55.092  INFO 29836 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:02:18.919  INFO 29836 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:02:19.924  INFO 29836 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:01:50.969  INFO 29836 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:01:51.736  INFO 29836 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:01:52.803  INFO 29836 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:01:53.974  INFO 29836 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:01:55.092  INFO 29836 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:02:18.919  INFO 29836 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:02:19.924  INFO 29836 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:02:37.422 DEBUG 29836 --- [http-nio-8080-exec-5] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 15:02:37.422 DEBUG 29836 --- [http-nio-8080-exec-5] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 2(Integer)
 2018-06-12 15:02:37.423 DEBUG 29836 --- [http-nio-8080-exec-5] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 15:02:37.423  INFO 29836 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_2->com.ztdz.User{id=2, name='222', pwd='222'}
-2018-06-12 15:02:39.849  INFO 29836 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.User{id=2, name='222', pwd='222'}
-2018-06-12 15:02:41.038  INFO 29836 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.User{id=2, name='222', pwd='222'}
-2018-06-12 15:02:42.295  INFO 29836 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.User{id=2, name='222', pwd='222'}
-2018-06-12 15:02:43.798  INFO 29836 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.User{id=2, name='222', pwd='222'}
-2018-06-12 15:03:51.114  INFO 29836 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.User{id=2, name='222', pwd='222'}
-2018-06-12 15:03:52.344  INFO 29836 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.User{id=2, name='222', pwd='222'}
-2018-06-12 15:04:00.856  INFO 29836 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.User{id=2, name='222', pwd='222'}
-2018-06-12 15:04:01.952  INFO 29836 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.User{id=2, name='222', pwd='222'}
+2018-06-12 15:02:37.423  INFO 29836 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=user_2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
+2018-06-12 15:02:39.849  INFO 29836 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
+2018-06-12 15:02:41.038  INFO 29836 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
+2018-06-12 15:02:42.295  INFO 29836 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
+2018-06-12 15:02:43.798  INFO 29836 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
+2018-06-12 15:03:51.114  INFO 29836 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
+2018-06-12 15:03:52.344  INFO 29836 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
+2018-06-12 15:04:00.856  INFO 29836 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
+2018-06-12 15:04:01.952  INFO 29836 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=user_2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
 2018-06-12 15:06:00.827  INFO 50184 --- [main] com.szzt.smart.demo.Demo                 : Starting Demo on DESKTOP-302RR5M with PID 50184 (E:\Temp\Project\target\classes started by jj in E:\Temp\Project)
 2018-06-12 15:06:00.829 DEBUG 50184 --- [main] com.szzt.smart.demo.Demo                 : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
 2018-06-12 15:06:00.830  INFO 50184 --- [main] com.szzt.smart.demo.Demo                 : No active profile set, falling back to default profiles: default
@@ -4862,7 +4862,7 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-12 15:06:01.976  INFO 50184 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 15:06:01.976  INFO 50184 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 15:06:02.393  INFO 50184 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4567f35d: startup date [Tue Jun 12 15:06:00 CST 2018]; root of context hierarchy
-2018-06-12 15:06:02.426  INFO 50184 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
+2018-06-12 15:06:02.426  INFO 50184 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
 2018-06-12 15:06:02.428  INFO 50184 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-12 15:06:02.428  INFO 50184 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-12 15:06:02.443  INFO 50184 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -4877,25 +4877,25 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-12 15:06:07.590 DEBUG 50184 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 15:06:07.601 DEBUG 50184 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 2(Integer)
 2018-06-12 15:06:07.612 DEBUG 50184 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 15:06:07.613  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=2->com.ztdz.User{id=2, name='222', pwd='222'}
-2018-06-12 15:06:08.526  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=2->com.ztdz.User{id=2, name='222', pwd='222'}
-2018-06-12 15:06:09.727  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=2->com.ztdz.User{id=2, name='222', pwd='222'}
-2018-06-12 15:06:10.868  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=2->com.ztdz.User{id=2, name='222', pwd='222'}
+2018-06-12 15:06:07.613  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
+2018-06-12 15:06:08.526  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
+2018-06-12 15:06:09.727  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
+2018-06-12 15:06:10.868  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=2->com.ztdz.com.cszt.domain.User{id=2, name='222', pwd='222'}
 2018-06-12 15:06:58.445 DEBUG 50184 --- [http-nio-8080-exec-10] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 15:06:58.446 DEBUG 50184 --- [http-nio-8080-exec-10] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 15:06:58.446 DEBUG 50184 --- [http-nio-8080-exec-10] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
-2018-06-12 15:06:58.447  INFO 50184 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:07:01.377  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:07:01.843  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:07:02.032  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:07:02.234  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:07:02.451  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:07:02.634  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:07:02.799  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:07:03.008  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:07:03.184  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:07:03.350  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:07:03.529  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:06:58.447  INFO 50184 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从数据库获取了用户 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:07:01.377  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:07:01.843  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:07:02.032  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:07:02.234  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:07:02.451  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:07:02.634  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:07:02.799  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:07:03.008  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:07:03.184  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:07:03.350  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:07:03.529  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:09:12.688 ERROR 50184 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.com.cszt.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool] with root cause
 
 java.net.ConnectException: Connection refused: connect
@@ -5069,57 +5069,57 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 15:10:33.559 DEBUG 50184 --- [http-nio-8080-exec-10] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 15:10:33.560 DEBUG 50184 --- [http-nio-8080-exec-10] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 15:10:33.560 DEBUG 50184 --- [http-nio-8080-exec-10] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : <==      Total: 1
-2018-06-12 15:10:33.561  INFO 50184 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:10:35.614  INFO 50184 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:10:54.110  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:10:56.564  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:10:58.016  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:10:58.239  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:10:58.611  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:10:58.818  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:10:59.026  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:10:59.237  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:10:59.443  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:10:59.641  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:10:59.883  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:00.145  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:00.321  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:00.544  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:00.754  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:00.935  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:01.350  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:01.584  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:01.788  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:01.974  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:02.178  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:02.418  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:02.609  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:02.828  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:03.019  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:03.236  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:03.441  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:03.662  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:03.886  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:04.103  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:04.328  INFO 50184 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:04.547  INFO 50184 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:04.753  INFO 50184 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:04.969  INFO 50184 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:05.158  INFO 50184 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:05.362  INFO 50184 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:05.584  INFO 50184 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:05.785  INFO 50184 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:06.010  INFO 50184 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:06.207  INFO 50184 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:06.423  INFO 50184 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:06.618  INFO 50184 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:06.816  INFO 50184 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:07.023  INFO 50184 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:07.210  INFO 50184 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:07.441  INFO 50184 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:07.769  INFO 50184 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:07.934  INFO 50184 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:11:08.435  INFO 50184 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:10:33.561  INFO 50184 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:10:35.614  INFO 50184 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:10:54.110  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:10:56.564  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:10:58.016  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:10:58.239  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:10:58.611  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:10:58.818  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:10:59.026  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:10:59.237  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:10:59.443  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:10:59.641  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:10:59.883  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:00.145  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:00.321  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:00.544  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:00.754  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:00.935  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:01.350  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:01.584  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:01.788  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:01.974  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:02.178  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:02.418  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:02.609  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:02.828  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:03.019  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:03.236  INFO 50184 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:03.441  INFO 50184 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:03.662  INFO 50184 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:03.886  INFO 50184 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:04.103  INFO 50184 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:04.328  INFO 50184 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:04.547  INFO 50184 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:04.753  INFO 50184 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:04.969  INFO 50184 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:05.158  INFO 50184 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:05.362  INFO 50184 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:05.584  INFO 50184 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:05.785  INFO 50184 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:06.010  INFO 50184 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:06.207  INFO 50184 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:06.423  INFO 50184 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:06.618  INFO 50184 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:06.816  INFO 50184 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:07.023  INFO 50184 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:07.210  INFO 50184 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:07.441  INFO 50184 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:07.769  INFO 50184 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:07.934  INFO 50184 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:11:08.435  INFO 50184 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:15:19.035  INFO 21752 --- [main] com.szzt.smart.demo.Demo                 : Starting Demo on DESKTOP-302RR5M with PID 21752 (E:\Temp\Project\target\classes started by jj in E:\Temp\Project)
 2018-06-12 15:15:19.045 DEBUG 21752 --- [main] com.szzt.smart.demo.Demo                 : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
 2018-06-12 15:15:19.045  INFO 21752 --- [main] com.szzt.smart.demo.Demo                 : No active profile set, falling back to default profiles: default
@@ -5136,7 +5136,7 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 15:15:20.322  INFO 21752 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 15:15:20.322  INFO 21752 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 15:15:20.861  INFO 21752 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40db2a24: startup date [Tue Jun 12 15:15:19 CST 2018]; root of context hierarchy
-2018-06-12 15:15:20.905  INFO 21752 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
+2018-06-12 15:15:20.905  INFO 21752 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
 2018-06-12 15:15:20.907  INFO 21752 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-12 15:15:20.908  INFO 21752 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-12 15:15:20.930  INFO 21752 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -5148,10 +5148,10 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 15:15:28.638  INFO 21752 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
 2018-06-12 15:15:28.639  INFO 21752 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2018-06-12 15:15:28.665  INFO 21752 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
-2018-06-12 15:15:28.711  INFO 21752 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:15:30.852  INFO 21752 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:15:32.510  INFO 21752 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:15:33.863  INFO 21752 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:15:28.711  INFO 21752 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:15:30.852  INFO 21752 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:15:32.510  INFO 21752 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:15:33.863  INFO 21752 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了城市 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:20:13.617  INFO 16496 --- [main] com.szzt.smart.demo.Demo                 : Starting Demo on DESKTOP-302RR5M with PID 16496 (E:\Temp\Project\target\classes started by jj in E:\Temp\Project)
 2018-06-12 15:20:13.619 DEBUG 16496 --- [main] com.szzt.smart.demo.Demo                 : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
 2018-06-12 15:20:13.620  INFO 16496 --- [main] com.szzt.smart.demo.Demo                 : No active profile set, falling back to default profiles: default
@@ -5168,7 +5168,7 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 15:20:14.755  INFO 16496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 15:20:14.755  INFO 16496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 15:20:15.173  INFO 16496 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4466af20: startup date [Tue Jun 12 15:20:13 CST 2018]; root of context hierarchy
-2018-06-12 15:20:15.206  INFO 16496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
+2018-06-12 15:20:15.206  INFO 16496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
 2018-06-12 15:20:15.208  INFO 16496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-12 15:20:15.208  INFO 16496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-12 15:20:15.224  INFO 16496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -5180,15 +5180,15 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 15:23:22.826  INFO 16496 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
 2018-06-12 15:23:22.827  INFO 16496 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2018-06-12 15:23:22.849  INFO 16496 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
-2018-06-12 15:23:22.890  INFO 16496 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:23:23.819  INFO 16496 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:23:24.756  INFO 16496 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:23:22.890  INFO 16496 --- [http-nio-8080-exec-2] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:23:23.819  INFO 16496 --- [http-nio-8080-exec-9] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:23:24.756  INFO 16496 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:23:55.662 DEBUG 16496 --- [http-nio-8080-exec-8] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 15:23:55.675 DEBUG 16496 --- [http-nio-8080-exec-8] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 15:23:55.687 DEBUG 16496 --- [http-nio-8080-exec-8] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
-2018-06-12 15:23:55.688  INFO 16496 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:23:56.654  INFO 16496 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:23:57.611  INFO 16496 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:23:55.688  INFO 16496 --- [http-nio-8080-exec-8] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:23:56.654  INFO 16496 --- [http-nio-8080-exec-4] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:23:57.611  INFO 16496 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:24:25.205  INFO 18448 --- [main] com.szzt.smart.demo.Demo                 : Starting Demo on DESKTOP-302RR5M with PID 18448 (E:\Temp\Project\target\classes started by jj in E:\Temp\Project)
 2018-06-12 15:24:25.208 DEBUG 18448 --- [main] com.szzt.smart.demo.Demo                 : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
 2018-06-12 15:24:25.208  INFO 18448 --- [main] com.szzt.smart.demo.Demo                 : No active profile set, falling back to default profiles: default
@@ -5205,7 +5205,7 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 15:24:26.361  INFO 18448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 15:24:26.361  INFO 18448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 15:24:26.786  INFO 18448 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4567f35d: startup date [Tue Jun 12 15:24:25 CST 2018]; root of context hierarchy
-2018-06-12 15:24:26.819  INFO 18448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
+2018-06-12 15:24:26.819  INFO 18448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
 2018-06-12 15:24:26.822  INFO 18448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-12 15:24:26.822  INFO 18448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-12 15:24:26.838  INFO 18448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -5217,11 +5217,11 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 15:24:32.616  INFO 18448 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
 2018-06-12 15:24:32.616  INFO 18448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2018-06-12 15:24:32.640  INFO 18448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
-2018-06-12 15:24:32.680  INFO 18448 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:24:33.772  INFO 18448 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:24:34.707  INFO 18448 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:24:35.678  INFO 18448 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:24:36.694  INFO 18448 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:24:32.680  INFO 18448 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:24:33.772  INFO 18448 --- [http-nio-8080-exec-3] com.szzt.smart.demo.com.cszt.UserServiceerService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:24:34.707  INFO 18448 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:24:35.678  INFO 18448 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:24:36.694  INFO 18448 --- [http-nio-8080-exec-10] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 15:25:35.467  INFO 26028 --- [main] com.szzt.smart.demo.Demo                 : Starting Demo on DESKTOP-302RR5M with PID 26028 (E:\Temp\Project\target\classes started by jj in E:\Temp\Project)
 2018-06-12 15:25:35.470 DEBUG 26028 --- [main] com.szzt.smart.demo.Demo                 : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
 2018-06-12 15:25:35.470  INFO 26028 --- [main] com.szzt.smart.demo.Demo                 : No active profile set, falling back to default profiles: default
@@ -5238,7 +5238,7 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 15:25:36.605  INFO 26028 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 15:25:36.605  INFO 26028 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 15:25:37.027  INFO 26028 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4567f35d: startup date [Tue Jun 12 15:25:35 CST 2018]; root of context hierarchy
-2018-06-12 15:25:37.060  INFO 26028 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
+2018-06-12 15:25:37.060  INFO 26028 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
 2018-06-12 15:25:37.062  INFO 26028 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-12 15:25:37.062  INFO 26028 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-06-12 15:25:37.077  INFO 26028 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -5250,10 +5250,10 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 15:25:46.729  INFO 26028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
 2018-06-12 15:25:46.729  INFO 26028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2018-06-12 15:25:46.751  INFO 26028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
-2018-06-12 15:25:46.789  INFO 26028 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:25:47.773  INFO 26028 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:25:48.860  INFO 26028 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
-2018-06-12 15:25:49.915  INFO 26028 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 15:25:46.789  INFO 26028 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:25:47.773  INFO 26028 --- [http-nio-8080-exec-6] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:25:48.860  INFO 26028 --- [http-nio-8080-exec-5] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
+2018-06-12 15:25:49.915  INFO 26028 --- [http-nio-8080-exec-7] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从缓存中获取了用户 -- key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 16:01:27.744  INFO 23560 --- [main] com.szzt.smart.demo.Demo                 : Starting Demo on DESKTOP-302RR5M with PID 23560 (E:\Temp\Project\target\classes started by jj in E:\Temp\Project)
 2018-06-12 16:01:27.747 DEBUG 23560 --- [main] com.szzt.smart.demo.Demo                 : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
 2018-06-12 16:01:27.748  INFO 23560 --- [main] com.szzt.smart.demo.Demo                 : No active profile set, falling back to default profiles: default
@@ -5270,7 +5270,7 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 16:01:28.963  INFO 23560 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 16:01:28.963  INFO 23560 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 16:01:29.401  INFO 23560 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4567f35d: startup date [Tue Jun 12 16:01:27 CST 2018]; root of context hierarchy
-2018-06-12 16:01:29.439  INFO 23560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
+2018-06-12 16:01:29.439  INFO 23560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
 2018-06-12 16:01:29.440  INFO 23560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test],methods=[GET]}" onto public java.lang.String com.szzt.smart.demo.com.cszt.controllerserController.test(java.lang.String,java.lang.String)
 2018-06-12 16:01:29.441  INFO 23560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-06-12 16:01:29.441  INFO 23560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/templates]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
@@ -5286,7 +5286,7 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 16:01:45.750 DEBUG 23560 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : ==>  Preparing: SELECT * FROM USER WHERE ID = ?
 2018-06-12 16:01:45.762 DEBUG 23560 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.UserMapperserMapper.getUser     : ==> Parameters: 1(Integer)
 2018-06-12 16:01:45.773 DEBUG 23560 --- [http-nio-8080-exec-1] c.s.s.demo.com.cszt.mapperzt.UserMapper.getUser     : <==      Total: 1
-2018-06-12 16:01:45.774  INFO 23560 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=1->com.ztdz.User{id=1, name='111', pwd='111'}
+2018-06-12 16:01:45.774  INFO 23560 --- [http-nio-8080-exec-1] com.szzt.smart.demo.com.cszt.servicet.UserService  : 从数据库获取了用户 >> key=1->com.ztdz.com.cszt.domain.User{id=1, name='111', pwd='111'}
 2018-06-12 16:04:08.337  INFO 28980 --- [main] com.szzt.smart.demo.Demo                 : Starting Demo on DESKTOP-302RR5M with PID 28980 (E:\Temp\Project\target\classes started by jj in E:\Temp\Project)
 2018-06-12 16:04:08.339 DEBUG 28980 --- [main] com.szzt.smart.demo.Demo                 : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
 2018-06-12 16:04:08.340  INFO 28980 --- [main] com.szzt.smart.demo.Demo                 : No active profile set, falling back to default profiles: default
@@ -5303,7 +5303,7 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 16:04:09.515  INFO 28980 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 16:04:09.516  INFO 28980 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 16:04:09.943  INFO 28980 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4567f35d: startup date [Tue Jun 12 16:04:08 CST 2018]; root of context hierarchy
-2018-06-12 16:04:09.978  INFO 28980 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
+2018-06-12 16:04:09.978  INFO 28980 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
 2018-06-12 16:04:09.979  INFO 28980 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test],methods=[GET]}" onto public java.lang.String com.szzt.smart.demo.com.cszt.UserControllerontroller.test(java.lang.String)
 2018-06-12 16:04:09.980  WARN 28980 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
 public java.lang.String com.szzt.smart.demo.com.cszt.controllerserController.test(java.lang.String,java.lang.String)
@@ -5367,7 +5367,7 @@ public java.lang.String com.szzt.smart.demo.com.cszt.UserControllerontroller.tes
 2018-06-12 16:04:59.226  INFO 20624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 16:04:59.226  INFO 20624 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 16:04:59.653  INFO 20624 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4567f35d: startup date [Tue Jun 12 16:04:58 CST 2018]; root of context hierarchy
-2018-06-12 16:04:59.686  INFO 20624 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
+2018-06-12 16:04:59.686  INFO 20624 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
 2018-06-12 16:04:59.687  INFO 20624 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/Test],methods=[GET]}" onto public java.lang.String com.szzt.smart.demo.com.cszt.UserControllerontroller.test(java.lang.String)
 2018-06-12 16:04:59.687  INFO 20624 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test],methods=[GET]}" onto public java.lang.String com.szzt.smart.demo.com.cszt.UserControllerontroller.test(java.lang.String,java.lang.String)
 2018-06-12 16:04:59.689  INFO 20624 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
@@ -5397,7 +5397,7 @@ public java.lang.String com.szzt.smart.demo.com.cszt.UserControllerontroller.tes
 2018-06-12 16:43:25.284  INFO 33844 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 16:43:25.284  INFO 33844 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 16:43:25.705  INFO 33844 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4567f35d: startup date [Tue Jun 12 16:43:24 CST 2018]; root of context hierarchy
-2018-06-12 16:43:25.737  INFO 33844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
+2018-06-12 16:43:25.737  INFO 33844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.controllerserController.get(java.lang.Integer)
 2018-06-12 16:43:25.738  INFO 33844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/Test],methods=[GET]}" onto public java.lang.String com.szzt.smart.demo.com.cszt.controllerserController.test(java.lang.String)
 2018-06-12 16:43:25.738  INFO 33844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test],methods=[GET]}" onto public java.lang.String com.szzt.smart.demo.com.cszt.controllerserController.test(java.lang.String,java.lang.String)
 2018-06-12 16:43:25.740  INFO 33844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
@@ -5599,7 +5599,7 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 17:46:59.545  INFO 66136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 17:46:59.545  INFO 66136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 17:47:00.057  INFO 66136 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4567f35d: startup date [Tue Jun 12 17:46:58 CST 2018]; root of context hierarchy
-2018-06-12 17:47:00.104  INFO 66136 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
+2018-06-12 17:47:00.104  INFO 66136 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
 2018-06-12 17:47:00.105  INFO 66136 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/Test],methods=[GET]}" onto public java.lang.String com.szzt.smart.demo.com.cszt.controllerserController.test(java.lang.Integer)
 2018-06-12 17:47:00.105  INFO 66136 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test],methods=[GET]}" onto public java.lang.String com.szzt.smart.demo.com.cszt.UserControllerontroller.test(java.lang.String,java.lang.String)
 2018-06-12 17:47:00.107  INFO 66136 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
@@ -5644,7 +5644,7 @@ java.net.ConnectException: Connection refused: connect
 2018-06-12 17:54:25.225  INFO 68136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-06-12 17:54:25.225  INFO 68136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-06-12 17:54:25.649  INFO 68136 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4567f35d: startup date [Tue Jun 12 17:54:24 CST 2018]; root of context hierarchy
-2018-06-12 17:54:25.681  INFO 68136 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
+2018-06-12 17:54:25.681  INFO 68136 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test/{id}],methods=[GET]}" onto public com.szzt.smart.demo.entity.com.ztdz.com.cszt.domain.User com.szzt.smart.demo.com.cszt.UserControllerontroller.get(java.lang.Integer)
 2018-06-12 17:54:25.682  INFO 68136 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/Test],methods=[GET]}" onto public java.lang.String com.szzt.smart.demo.com.cszt.UserControllerontroller.test(java.lang.Integer)
 2018-06-12 17:54:25.682  INFO 68136 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/user/test],methods=[GET]}" onto public java.lang.String com.szzt.smart.demo.com.cszt.controllerserController.test(java.lang.String,java.lang.String)
 2018-06-12 17:54:25.684  INFO 68136 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)

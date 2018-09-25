@@ -1,8 +1,8 @@
 define({
-  "name": "User API Document",
+  "name": "domain API Document",
   "version": "0.1.0",
-  "description": "A sample of User API document generated from apiDoc",
-  "title": "User API",
+  "description": "A sample of domain API document generated from apiDoc",
+  "title": "domain API",
   "url": "http://localhost:8080",
   "sampleUrl": false,
   "defaultVersion": "0.0.0",

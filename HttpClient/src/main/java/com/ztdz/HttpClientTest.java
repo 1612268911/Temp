@@ -154,7 +154,7 @@ public class HttpClientTest {
 //        return null;
 //    }
     public static void main(String[] args){
-//        User user = new User();
+//        domain user = new domain();
 //        user.setName("老大");
 //        user.setPwd("123456");
 //

@@ -1,6 +1,6 @@
 /**
  * Copyright (C), 2015-2018, XXX有限公司
- * FileName: User
+ * FileName: domain
  * Author:   jj
  * Date:     2018/8/21 10:43
  * Description:
@@ -54,7 +54,7 @@ public class User implements Serializable {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "domain{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", pwd='" + pwd + '\'' +

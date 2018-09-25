@@ -38,7 +38,7 @@ public class UserController {
     @Autowired
     private RestTemplate restTemplate;
     @ApiOperation(value = "用户登录" , notes = "根据user对象创建用户")
-    @ApiImplicitParam(name = "user",value = "用户详情实体类",required = true,dataType = "User")
+    @ApiImplicitParam(name = "user",value = "用户详情实体类",required = true,dataType = "domain")
     @RequestMapping(value="/login",method = RequestMethod.POST)
     public String login(User user, Model model) {
         if(user.getUsername() !=null && !user.getUsername().equals("") && user.getPassword()!=null&& !user.getPassword().equals("")){
@@ -73,7 +73,7 @@ public class UserController {
     }
 //    @RequestMapping(value="/get/{id}",method = RequestMethod.POST)
 //    @ResponseBody
-//    public User get(@PathVariable("id") int id){
-//        return restTemplate.postForObject("http://localhost:8090/getuser/"+id,Integer.TYPE,User.class);
+//    public domain get(@PathVariable("id") int id){
+//        return restTemplate.postForObject("http://localhost:8090/getuser/"+id,Integer.TYPE,domain.class);
 //    }
 }

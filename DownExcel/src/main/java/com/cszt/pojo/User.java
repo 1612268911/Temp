@@ -1,6 +1,6 @@
 /**
  * Copyright (C), 2015-2018, XXX有限公司
- * FileName: User
+ * FileName: domain
  * Author:   jj
  * Date:     2018/5/12 13:44
  * Description: 用户实体类

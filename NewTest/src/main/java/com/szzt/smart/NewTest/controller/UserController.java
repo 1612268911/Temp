@@ -35,7 +35,7 @@ public class UserController {
      *  @api {get} /NewTest/user/{id}
      @apiVersion 0.1.0
      @apiparam{Integer} id 用户id
-      * @apiSuccess {User} user 用户
+      * @apiSuccess {domain} user 用户
      @apiName getUser
      */
    @GetMapping("/{id}")

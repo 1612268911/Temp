@@ -11,7 +11,7 @@
         and r.r_id = s.ur_roles_id
         and u.u_username=#{userName}
     </select>
-    <resultMap id="result" type="com.cszt.domian.User">
+    <resultMap id="result" type="com.cszt.domian.com.cszt.domain.User">
         <result property="username" column="username"/>
         <result property="password" column="password"/>
         <result property="roles" column="roles"/>

@@ -1,0 +1,25 @@
+一、mongodb  NoSql（相对于关系型数据库而言）
+  数据库 CRUD
+  查询name中包含T的
+  db.emps.find({name:/T/})
+  查询name以T结尾的
+  db.emps.find({name:/T$/})
+  查询name以T开头的
+  db.emps.find({name:/^T/})
+
+二、SpringBoot利用mongodb管理日志
+  1、pom.xml
+     mongoDB  logback  aop   slf4j
+	 开启热部署，mongoDB日志写入不进去？
+  2、logback.xml
+     配置自己的mongoDbAppender
+  3、application.properties中配置mongodb连接字符串
+  4、com.newer.logback中
+     MyLog：日志实体类
+	 LogRepository：MongDB日志持久层接口
+	 mongoDbAppender实现类
+	 WebLogAspect：自定义http请求切面类
+	 
+	 
+	 
+	 
