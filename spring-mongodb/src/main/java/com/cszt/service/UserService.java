@@ -41,6 +41,13 @@ public class UserService {
         query.with(new Sort(new Sort.Order(Sort.Direction.ASC, "age")));
         return mongoTemplate.findAll(User.class);
     }
+    /**
+     * @author lilin
+     * @description 根据name获取user
+     * @date: 2018/9/26 16:23
+     * @param:
+     * @return:
+     */
     public List<User> getUser(String name){
         Criteria criteria = Criteria.where("name").is(name);//语句
         Query query = new Query();

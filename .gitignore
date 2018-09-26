@@ -6,6 +6,7 @@
 .idea
 *.iml
 target
+/META-INF/
 .gitignore
 out
 gen
