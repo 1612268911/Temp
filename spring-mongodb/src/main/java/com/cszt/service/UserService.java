@@ -4,6 +4,7 @@ import com.cszt.MongoDBApplication;
 import com.cszt.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
@@ -25,13 +26,26 @@ public class UserService {
     public void insert(){
         User user = new User();
         user.setName("老大");
-        user.setAge(23);
+        user.setAge(21);
         mongoTemplate.save(user);
     }
-    public List<User> getProjects() {
+    /**
+     * @author lilin
+     * @description 获取所有user
+     * @date: 2018/9/26 16:23
+     * @param:
+     * @return:
+     */
+    public List<User> getAllUser() {
         Query query = new Query();
-        Criteria criteria = Criteria.where("name").is("老大");
+        query.with(new Sort(new Sort.Order(Sort.Direction.ASC, "age")));
+        return mongoTemplate.findAll(User.class);
+    }
+    public List<User> getUser(String name){
+        Criteria criteria = Criteria.where("name").is(name);//语句
+        Query query = new Query();
         query.addCriteria(criteria);
-        return mongoTemplate.find(query, User.class);
+        query.limit(1);
+        return mongoTemplate.find(query,User.class);
     }
 }

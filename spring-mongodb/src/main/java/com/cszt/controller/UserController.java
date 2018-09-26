@@ -26,8 +26,12 @@ public class UserController {
         userService.insert();
         return "success!";
     }
+    @GetMapping("/findAll")
+    public List<User> getAllUser() {
+        return userService.getAllUser();
+    }
     @GetMapping("/find")
-    public List<User> getProjects() {
-        return userService.getProjects();
+    public List<User> getUser(String name) {
+        return userService.getUser(name);
     }
 }
