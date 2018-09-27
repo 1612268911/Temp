@@ -19,7 +19,7 @@ public class DistributedLock {
     
     private String lockValue = "LOCKED";
 
-    private static final int invailDate = 30;
+    private static final int invailDate = 300;
 
     private boolean flag = false;
 
@@ -33,6 +33,7 @@ public class DistributedLock {
      */
     public boolean lock() throws InterruptedException {
         jedis = new Jedis("127.0.0.1",6379,60000);
+        jedis.flushAll();//清空reids
         long overDate = System.currentTimeMillis()+invailDate*1000;
         while(System.currentTimeMillis()<overDate){
             jedis.watch(lockName);

@@ -22,6 +22,18 @@ public class LockTest {
                             if(add==95){
                                 break;
                             }
+                            if(add==85){
+                                break;
+                            }
+                            if(add==75){
+                                break;
+                            }
+                            if(add==65){
+                                break;
+                            }
+                            if(add==55){
+                                break;
+                            }
                             try {
                                 Thread.sleep(3000);
                             } catch (InterruptedException e) {
@@ -34,7 +46,7 @@ public class LockTest {
                 }
             }
         };
-        for(int i = 3;i>0;i--){
+        for(int i = 8;i>0;i--){
             new Thread(runnable).start();
             //Thread.sleep(2000);
         }
