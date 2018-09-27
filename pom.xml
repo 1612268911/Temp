@@ -57,6 +57,7 @@
         <module>boot-dubbo-consumer</module>
         <module>boot-dubbo-api</module>
         <module>spring-mongodb</module>
+        <module>distributed-lock</module>
     </modules>
     <build>
         <plugins>

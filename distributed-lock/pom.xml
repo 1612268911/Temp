@@ -2,11 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.cszt</groupId>
-    <artifactId>boot-dubbo-api</artifactId>
-    <version>1.0.0</version>
+    <artifactId>distributed-lock</artifactId>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -15,31 +13,33 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <dependencies>
-        <!-- 使用lombok实现JavaBean的get、set、toString、hashCode、equals等方法的自动生成 -->
+        <!-- jedis-->
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.18</version>
-            <scope>provided</scope>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
         </dependency>
         <!--zookeeper相关-->
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
-            <version>3.4.8</version>
-            <scope>test</scope>
+            <version>3.5.4-beta</version>
+            <type>pom</type>
         </dependency>
+
         <dependency>
             <groupId>com.github.sgroschupf</groupId>
             <artifactId>zkclient</artifactId>
             <version>0.1</version>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+        <finalName>distributed-lock</finalName>
+    </build>
 </project>
