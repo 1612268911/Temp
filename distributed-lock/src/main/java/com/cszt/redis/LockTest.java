@@ -46,7 +46,7 @@ public class LockTest {
                 }
             }
         };
-        for(int i = 8;i>0;i--){
+        for(int i = 20;i>0;i--){
             new Thread(runnable).start();
             //Thread.sleep(2000);
         }

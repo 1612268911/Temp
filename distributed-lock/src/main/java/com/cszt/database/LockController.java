@@ -33,7 +33,7 @@ public class LockController {
                         while (add > 0) {
                             System.out.println(Thread.currentThread().toString() + " ———————— add@" + add);
                             add--;
-                            if(add==90 || add == 95){
+                            if(add==90 || add == 95 || add == 85){
                                 break;
                             }
                             try {
@@ -48,7 +48,8 @@ public class LockController {
                 }
             }
         };
-        for (int i = 8; i > 0; i--) {
+        for (int i = 5; i > 0; i--) {
+            System.out.println("i--->"+i);
             new Thread(runnable).start();
             //Thread.sleep(2000);
         }

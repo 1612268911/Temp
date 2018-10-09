@@ -58,6 +58,8 @@
         <module>boot-dubbo-api</module>
         <module>spring-mongodb</module>
         <module>distributed-lock</module>
+        <module>spring-provider</module>
+        <module>spring-consumer</module>
     </modules>
     <build>
         <plugins>

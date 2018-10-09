@@ -61,8 +61,8 @@ public class SendSMSMessageTest {
 
     }
     public static void main(String[] args){
-        String content = "【有钱花】亲爱的a2500564：2018年8月15日是您的还款日，应还金额总计1551.2元.请于还款日早8点前确保绑定的银行卡余额充足，如已还款，请忽略。";
-        String phoneNumber = "18402881254";
+        String content = "【有钱花】兄弟，该还钱了！";
+        String phoneNumber = "18229773049";
         sendSmsMessage(content,phoneNumber);
     }
 }
