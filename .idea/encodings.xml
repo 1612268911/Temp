@@ -28,15 +28,18 @@
     <file url="file://$PROJECT_DIR$/SpringQuartzSecond" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringRedis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringSecurity" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/XXL-job-center" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Zipkinclient" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Zipkinserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ZuulServer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot-dubbo-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot-dubbo-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot-dubbo-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-lock" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/logindemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/logindemotest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mongodb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testlist" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

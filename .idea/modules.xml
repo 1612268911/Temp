@@ -31,9 +31,13 @@
       <module fileurl="file://$PROJECT_DIR$/boot-dubbo-provider/boot-dubbo-provider.iml" filepath="$PROJECT_DIR$/boot-dubbo-provider/boot-dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/Configserver/configserver.iml" filepath="$PROJECT_DIR$/Configserver/configserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/Project/demo.iml" filepath="$PROJECT_DIR$/Project/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-lock/distributed-lock.iml" filepath="$PROJECT_DIR$/distributed-lock/distributed-lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/FeignServer/feignserver.iml" filepath="$PROJECT_DIR$/FeignServer/feignserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/logindemo/logindemo.iml" filepath="$PROJECT_DIR$/logindemo/logindemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/logindemotest/logindemo (1).iml" filepath="$PROJECT_DIR$/logindemotest/logindemo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-consumer/spring-consumer.iml" filepath="$PROJECT_DIR$/spring-consumer/spring-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mongodb/spring-mongodb.iml" filepath="$PROJECT_DIR$/spring-mongodb/spring-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-provider/spring-provider.iml" filepath="$PROJECT_DIR$/spring-provider/spring-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringQuartzFrist/springquartzintegrated.iml" filepath="$PROJECT_DIR$/SpringQuartzFrist/springquartzintegrated.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringQuartzSecond/springquartzintegrated (1).iml" filepath="$PROJECT_DIR$/SpringQuartzSecond/springquartzintegrated (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />

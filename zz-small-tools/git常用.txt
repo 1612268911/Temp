@@ -1,4 +1,4 @@
-ssh-keygen -t rsa -C "C"lilin01@szzt.com.cn""
+ssh-keygen -t rsa -C "C"huangyan@szzt.com.cn""
 
 cat ~/.ssh/id_rsa.pub
 
@@ -20,4 +20,25 @@ git status
 
 :q!
 
+如果push遇到在输入密码是熟错后，就会报这个错误fatal: Authentication failed for
+解决办法：
+git config --system --unset credential.helper
+之后你在push就会提示输入名称和密码
+
+从命令行推送已经创建的仓库
+git remote add origin http://10.21.236.39:3000/lilin/mobile-business.git
+git push -u origin master
+
+修改当前的源地址：
+git remote set-url origin [GIT URL]
+//orgin为当前源地址名，[GIT URL]为欲修改源地址
+
+添加一个新的Git库源地址：
+$git remote add [NAME] [GIT URL]
+//[NAME]为新的Git库源地址名，[GIT URL]为新的git库源地址
+
+删除一个Git库源地址：
+$git remote remove [NAME]
+$git remote rm [NAME]
+//[NAME]为Git库源地址名
 

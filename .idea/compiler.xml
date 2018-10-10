@@ -16,6 +16,7 @@
         <module name="Configclient (2)" />
         <module name="configserver" />
         <module name="demo" />
+        <module name="distributed-lock" />
         <module name="DownExcel" />
         <module name="ElectronicSignature" />
         <module name="EurekaServer2" />
@@ -27,6 +28,9 @@
         <module name="RabbitMqCommon" />
         <module name="RabbitMqConsumer" />
         <module name="RabbitMqProvider" />
+        <module name="spring-consumer" />
+        <module name="spring-mongodb" />
+        <module name="spring-provider" />
         <module name="SpringConfig" />
         <module name="SpringJpa" />
         <module name="SpringJtaAtomikos" />
@@ -44,7 +48,7 @@
         <module name="zipkinserver" />
         <module name="ZuulServer" />
       </profile>
-      <profile name="Annotation profile for Temp" enabled="true">
+      <profile name="Annotation profile for logindemo" enabled="true">
         <sourceOutputDir name="../logindemotest/target/generated-sources/annotations" />
         <sourceTestOutputDir name="../logindemotest/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -63,6 +67,7 @@
       <module name="Configclient (2)" target="1.8" />
       <module name="configserver" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="distributed-lock" target="1.6" />
       <module name="DownExcel" target="1.6" />
       <module name="ElectronicSignature" target="1.6" />
       <module name="EurekaServer2" target="1.6" />
@@ -76,6 +81,9 @@
       <module name="RabbitMqCommon" target="1.6" />
       <module name="RabbitMqConsumer" target="1.6" />
       <module name="RabbitMqProvider" target="1.8" />
+      <module name="spring-consumer" target="1.6" />
+      <module name="spring-mongodb" target="1.6" />
+      <module name="spring-provider" target="1.6" />
       <module name="SpringConfig" target="1.6" />
       <module name="SpringJpa" target="1.6" />
       <module name="SpringJtaAtomikos" target="1.8" />

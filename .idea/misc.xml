@@ -38,6 +38,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/SpringQuartzFrist/pom.xml" />
         <option value="$PROJECT_DIR$/SpringQuartzSecond/pom.xml" />
+        <option value="$PROJECT_DIR$/distributed-lock/pom.xml" />
       </list>
     </option>
   </component>

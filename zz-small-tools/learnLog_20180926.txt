@@ -1,0 +1,228 @@
+木鱼:
+git常用命令：https://blog.csdn.net/tomatozaitian/article/details/73515849
+
+木鱼:
+git服务器搭建：https://blog.csdn.net/wfl_137724/article/details/76684982
+
+木鱼:
+zipkin--〉https://blog.csdn.net/z8414/article/details/78600646
+
+木鱼:
+swagger地址：http://localhost:8080/swagger-ui.html# 
+
+木鱼:
+swagger-->https://blog.csdn.net/xxoo00xx00/article/details/77163399
+
+木鱼:
+springboot,mybatis,redis-->https://blog.csdn.net/joshua1830/article/details/54175084
+
+木鱼:
+config-refresh-->https://blog.csdn.net/yanpenglei/article/details/78879676
+
+木鱼:
+config-mq-refresh-->https://blog.csdn.net/u012806787/article/details/78865414
+
+木鱼:
+启动监控管理器
+找到你安装rabbitMQ的路径，然后切换到sbin的文件夹
+输入rabbitmq-plugins enable rabbitmq_management命令来启动监控管理器
+然后在浏览器输入http:localhost:15672 用户名和密码默认都为guest。
+rabbitMQ常用的命令
+启动监控管理器：rabbitmq-plugins enable rabbitmq_management
+关闭监控管理器：rabbitmq-plugins disable rabbitmq_management
+启动rabbitmq：rabbitmq-service start
+关闭rabbitmq：rabbitmq-service stop
+查看所有的队列：rabbitmqctl list_queues
+清除所有的队列：rabbitmqctl reset
+关闭应用：rabbitmqctl stop_app
+启动应用：rabbitmqctl start_app
+用户和权限设置（后面用处）
+添加用户：rabbitmqctl add_user username password
+分配角色：rabbitmqctl set_user_tags username administrator
+新增虚拟主机：rabbitmqctl add_vhost  vhost_name
+将新虚拟主机授权给新用户：rabbitmqctl set_permissions -p vhost_name username '.*' '.*' '.*'
+角色说明
+none  最小权限角色
+management 管理员角色
+policymaker   决策者
+monitoring  监控
+administrator  超级管理员 
+
+木鱼:
+zipkin、mq---->https://www.cnblogs.com/lifeone/p/9040336.html
+
+木鱼:
+加载自定义配置文件-->https://www.cnblogs.com/kellyJAVA/p/8030395.html
+
+木鱼:
+idea打包-->https://blog.csdn.net/m0_37063257/article/details/78300877
+
+木鱼:
+Java8新特性-->http://www.runoob.com/java/java8-new-features.html
+
+木鱼:
+StringUtils -->https://www.cnblogs.com/jbml-154312/p/7272156.html
+
+木鱼:
+powerdesigner-->创建->https://jingyan.baidu.com/article/6c67b1d6af0d9b2787bb1edc.html
+导出sql、加注释->https://blog.csdn.net/qq_22642239/article/details/78895139
+改大写->https://www.cnblogs.com/sandunban/p/5317845.html
+
+木鱼:
+CollectionUtils-->https://www.cnblogs.com/mr-wuxiansheng/p/7500560.html
+
+木鱼:
+apidoc-->https://www.cnblogs.com/minsons/articles/7154090.html
+
+木鱼:
+zookeeper-->https://www.w3cschool.cn/zookeeper/zookeeper_overview.html
+
+木鱼:
+java8stream-->https://blog.csdn.net/cdw8131197/article/details/68553148
+
+木鱼:
+HttpClient发送请求-->https://blog.csdn.net/qq9808/article/details/78320816
+
+木鱼:
+svnserver client-->https://www.cnblogs.com/mq0036/p/5250198.html
+
+木鱼:
+proxy-->https://www.cnblogs.com/techyc/p/3455950.html
+
+木鱼:
+idea创建 bpmn文件-->https://www.cnblogs.com/kanyun/p/8079501.html
+activiti-->https://blog.csdn.net/qwlzxx/article/details/52416614
+
+木鱼:
+ activiti-->https://ke.qq.com/course/189188
+
+木鱼:
+activiti用户与用户组-->https://www.cnblogs.com/lyh421/p/6418682.html
+
+木鱼:
+activiti分支-->https://blog.csdn.net/u011320740/article/details/52997392
+
+木鱼:
+activiti组任务-->https://blog.csdn.net/abc834780227/article/details/52101822
+
+木鱼:
+java修改图片-->https://www.cnblogs.com/tenWood/p/7508128.html
+
+木鱼:
+activiti会签-->https://www.cnblogs.com/Kavlez/p/4369687.html
+
+木鱼:
+电子签章-->https://blog.csdn.net/do_bset_yourself/article/details/78171897?locationNum=8&fps=1
+p12自签名数字证书-->https://blog.csdn.net/u010923921/article/details/77970036
+
+木鱼:
+加载自定义配置文件(仅支持properties文件)-->https://www.cnblogs.com/kellyJAVA/p/8030395.html
+
+木鱼:
+idea引用本地包-->https://blog.csdn.net/sunranword/article/details/17788983
+
+木鱼:
+word转pdf-->https://blog.csdn.net/m0_37568521/article/details/78545887
+
+木鱼:
+发送邮件-->https://www.jianshu.com/p/0991f0841b0a
+邮件及附件-->http://www.360doc.com/content/17/0330/17/35874779_641470931.shtml
+
+木鱼:
+sms发送短信-->https://blog.csdn.net/wuyjcsdn/article/details/72820154
+
+木鱼:
+springboot security-->https://segmentfault.com/a/1190000013057238
+
+木鱼:
+springboot druid-->https://blog.csdn.net/snakemoving/article/details/76285717
+配置数据源-->https://blog.csdn.net/weixin_38187317/article/details/79556645
+
+木鱼:
+SpringMvcConfig
+fastJson-->https://www.jianshu.com/p/14df78573cb2
+拦截器-->https://www.jianshu.com/p/f69b21731b41
+拦截器记录请求日志-->https://www.jianshu.com/p/f69b21731b41
+修改静态文件路径-->https://www.jianshu.com/p/c6ab1081fd5f
+
+木鱼:
+过滤器-->https://www.cnblogs.com/OnlyCT/p/7133639.html
+
+木鱼:
+logback.xml生成日志-->https://www.jianshu.com/p/06b6574943df
+
+木鱼:
+lombok-->https://www.jianshu.com/p/9bd6ce692ab1
+
+木鱼:
+idea打war包-->https://blog.csdn.net/wangsiu/article/details/78258868
+
+木鱼:
+war包部署到tomcat-->tomcat配置完成后将war包放入webapps目录下，bin-startUp.bat启动tomcat，然后在访问地址前加上war包名称即可访问 如：**/ProjectName/**
+
+木鱼:
+springboot多数据源-->https://blog.csdn.net/qq_35797610/article/details/78740874
+
+木鱼:
+Springboot+atomikos+jta实现分布式事务统一管理-->https://blog.csdn.net/qq_37142346/article/details/78494992
+
+木鱼:
+SpringBoot,JWT登录验证-->https://www.jianshu.com/p/2503cde90c55
+
+木鱼:
+SpringBoot使用ApplicationEvent&Listener
+-->https://www.jianshu.com/p/4359dd4b36a6
+
+木鱼:
+SpringBoot启动Banner-->https://www.jianshu.com/p/c1f7617c99aa
+
+木鱼:
+SpringBoot test-->https://www.jianshu.com/p/d8f844711bf4
+
+木鱼:
+cron表达式规则-->http://www.360doc.com/content/16/0104/14/16070877_525381044.shtml
+
+木鱼:
+Quartz jdbcStore-->https://blog.csdn.net/tengdazhang770960436/article/details/50017275
+
+木鱼:
+Quartz job传参-->https://www.w3cschool.cn/quartz_doc/quartz_doc-h4ux2cq6.html
+
+木鱼:
+Quartz demo-->https://www.w3cschool.cn/quartz_doc/quartz_doc-1xbu2clr.html
+
+木鱼:
+Quartz任务自动漂移-->https://www.jianshu.com/p/49133c107143
+
+木鱼:
+rabbitmq消息延迟消费-->https://www.jianshu.com/p/b74a14c7f31d
+
+木鱼:
+windows强行关闭端口-->https://blog.csdn.net/zhx_0323/article/details/80424996
+
+木鱼:
+zookeeper可视化工具-->https://blog.csdn.net/tanqian351/article/details/80118334
+
+木鱼:
+svn，git设置忽略文件-->https://blog.csdn.net/qq_34590097/article/details/56284935
+
+木鱼:
+zookeeper实现分布式锁-->https://www.cnblogs.com/liuyang0/p/6800538.html
+
+木鱼:
+zkClient操作zookeeper-->https://blog.csdn.net/t1dmzks/article/details/78440717
+
+木鱼:
+maven pahse(命令)-->https://blog.csdn.net/u012719556/article/details/78472505
+
+木鱼:
+springboot,mybatis,redis-->https://blog.csdn.net/lk569696322/article/details/79671096
+
+木鱼:
+rdm (redisDesktopManager) 清除缓存-->https://blog.csdn.net/chencaw/article/details/80718305
+
+木鱼:
+MongoDBAppender(mongodb写入日志)-->https://www.cnblogs.com/zno2/p/4798621.html
+
+木鱼:
+mongodbTemplate操作mongodb-->https://blog.csdn.net/qq_32475739/article/details/79194852

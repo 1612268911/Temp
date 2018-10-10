@@ -31,7 +31,7 @@ import java.util.List;
  * @since 1.0.0
  */
 @Configuration
-public class MVCConfig extends WebMvcConfigurerAdapter{
+public class MVCConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void configurePathMatch(PathMatchConfigurer configurer) {
@@ -60,6 +60,7 @@ public class MVCConfig extends WebMvcConfigurerAdapter{
 
     /**
      * 添加拦截器
+     *
      * @param registry
      */
     @Override
@@ -69,9 +70,10 @@ public class MVCConfig extends WebMvcConfigurerAdapter{
 
     /**
      * 自定义静态资源文件路径
-     *
+     * <p>
      * 我们配置了静态资源的路径为/yuqiyu/resources/**，那么只要访问地址前缀是/yuqiyu/resources/，就会被自动转到项目根目录下的static文件夹内。
-       如：我们访问：127.0.0.1:8080/yuqiyu/resources/t.png就会被解析成127.0.0.1:8080/t.png。
+     * 如：我们访问：127.0.0.1:8080/yuqiyu/resources/t.png就会被解析成127.0.0.1:8080/t.png。
+     *
      * @param registry
      */
     @Override
@@ -90,6 +92,7 @@ public class MVCConfig extends WebMvcConfigurerAdapter{
 
     /**
      * 配置页面对应的路径
+     *
      * @param registry
      */
     @Override
@@ -114,6 +117,7 @@ public class MVCConfig extends WebMvcConfigurerAdapter{
 
     /**
      * 配置消息转换器 fastjson
+     *
      * @param converters
      */
     @Override
