@@ -1,0 +1,26 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: admin
+    password: admin
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&useSSL=true
+    driver-class-name: com.mysql.jdbc.Driver
+#    data: classpath:sql/data.sql       #插入数据   只要配置application.yml  sql 没有代码
+#    schema: classpath:sql/create.sql   #创建表
+mybatis:
+  type-aliases-package: com.szzt.domain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
