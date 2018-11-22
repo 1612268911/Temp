@@ -1,5 +1,9 @@
 import com.cszt.LuceneApplication;
 import com.cszt.service.LuceneService;
+import org.apache.lucene.index.Term;
+import org.apache.lucene.search.PhraseQuery;
+import org.apache.lucene.search.Query;
+import org.apache.lucene.search.TermQuery;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +33,7 @@ public class LuceneTest {
     public void search() throws Exception {
         luceneService.search();
     }
+
     @Test
     public void testAnalyzer() throws Exception {
         //true表示匹配到最大值后不匹配小的值 如匹配到我的，就不会匹配到 我/的

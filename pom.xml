@@ -60,6 +60,7 @@
         <module>distributed-lock</module>
         <module>spring-provider</module>
         <module>spring-consumer</module>
+        <module>springboot-lucene</module>
     </modules>
     <build>
         <plugins>

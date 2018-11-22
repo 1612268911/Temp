@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.cszt.dao.LoggerMapper">
-    <insert id="save" parameterType="com.cszt.domain.LoggerEntity">
-        INSERT INTO log_total(ali_id,ali_client_ip,ali_uri,ali_type,ali_method,ali_param_data,ali_session_id,ali_time,ali_return_time,ali_http_status_code,ali_return_data)
-        VALUES (#{aliId},#{aliClientIp},#{uri},#{aliType},#{aliMethod},#{paramData},#{sessionId},#{aliTime},#{aliReturnTime},#{statusCode},#{returnDate})
-    </insert>
-</mapper>
