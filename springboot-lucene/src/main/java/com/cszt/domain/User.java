@@ -1,6 +1,7 @@
 package com.cszt.domain;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @author lilin
@@ -13,6 +14,23 @@ public class User implements Serializable {
     private String name;
 
     private String pwd;
+
+    private Date createTime;
+
+    public User(int id, String name, String pwd, Date createTime) {
+        this.id = id;
+        this.name = name;
+        this.pwd = pwd;
+        this.createTime = createTime;
+    }
+
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
 
     public int getId() {
         return id;

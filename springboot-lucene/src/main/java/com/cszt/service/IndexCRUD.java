@@ -49,7 +49,7 @@ public class IndexCRUD {
             //是否建立索引
             fieldType.setIndexOptions(FieldInfo.IndexOptions.DOCS_AND_FREQS_AND_POSITIONS_AND_OFFSETS);
             //是否用拆分分词
-            fieldType.setTokenized(true);
+            fieldType.setTokenized(false);
             /***
              *  IndexableField->interface
              *  使用实现类Field
@@ -66,6 +66,7 @@ public class IndexCRUD {
                 document.add(field);
                 field = new TextField("pwd",user.getPwd(),Field.Store.YES);
                 document.add(field);
+                document.add(new LongField("createTime", user.getCreateTime().getTime(),Field.Store.YES));
                 //添加document
                 indexWriter.addDocument(document);
             }

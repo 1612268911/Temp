@@ -21,6 +21,6 @@ public interface UserMapper {
     boolean edit(User user);
     @Delete("delete from user where id = #{id}")
     boolean remove(int id);
-    @Select("select t.id,t.name,t.pwd from user t")
+    @Select("select t.id,t.name,t.pwd,t.createTime from user t")
     List<User> userList();
 }

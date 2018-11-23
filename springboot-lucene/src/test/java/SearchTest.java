@@ -22,6 +22,8 @@ public class SearchTest {
     private SearchLucene searchService;
     @Test
     public void singSearch0() throws Exception {
+        //或者defaultStr=name,queryStr=hello
+        //或者defaultStr="",queryStr=name:hello
         searchService.singSearch("name:hello");
     }
     @Test

@@ -50,7 +50,7 @@ public class LuceneService {
             Field field = null;
             for(User user :userList){
                 document = new Document();
-                field = new TextField("id",user.getId()+"", Field.Store.YES);
+                field = new LongField("id",user.getId(), Field.Store.YES);
                 document.add(field);
                 field = new TextField("name",user.getName(),Field.Store.YES);
                 document.add(field);
