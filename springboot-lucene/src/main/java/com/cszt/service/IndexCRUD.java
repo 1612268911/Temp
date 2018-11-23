@@ -2,10 +2,7 @@ package com.cszt.service;
 
 import com.cszt.domain.User;
 import com.cszt.mapper.UserMapper;
-import org.apache.lucene.document.Document;
-import org.apache.lucene.document.Field;
-import org.apache.lucene.document.FieldType;
-import org.apache.lucene.document.TextField;
+import org.apache.lucene.document.*;
 import org.apache.lucene.index.FieldInfo;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
@@ -63,7 +60,7 @@ public class IndexCRUD {
              */
             for(User user :userList){
                 document = new Document();
-                field = new TextField("id",user.getId()+"", Field.Store.YES);
+                field = new LongField("id",user.getId(), Field.Store.YES);
                 document.add(field);
                 field = new TextField("name",user.getName(),Field.Store.YES);
                 document.add(field);

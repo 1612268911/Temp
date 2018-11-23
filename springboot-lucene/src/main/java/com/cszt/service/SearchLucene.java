@@ -28,8 +28,10 @@ public class SearchLucene {
         Directory directory = FSDirectory.open(new File("E:\\Temp\\springboot-lucene\\src\\main\\resources\\index"));
         IndexReader indexReader = DirectoryReader.open(directory);
         IndexSearcher indexSearcher = new IndexSearcher(indexReader);
+        //字段
         String defaultStr = "";
         QueryParser parser = new QueryParser(Version.LUCENE_43,defaultStr,new IKAnalyzer());
+        //字段值 str
         Query query = parser.parse(str);
         System.out.println("query--->"+query.toString());
         TopDocs topDocs = indexSearcher.search(query, 10000);
@@ -67,37 +69,59 @@ public class SearchLucene {
 
     /***
      * 段落查询
-     * @throws Exception
+     *
+     *
      */
-    public void singSearch3() throws Exception {
+    public void PhraseQuery() throws Exception {
         //PhraseQuery段落查询必须包含"java lucene"才会被命中
         PhraseQuery query = new PhraseQuery();
         //name:"java world"等同
         //luceneService.singSearch("name:\"java world\"");
-        query.add(new Term("name","java"));
+        query.add(new Term("name","hello"));
+        query.add(new Term("name","lucene"));
+        singSearch(query);
+    }
+    /***
+     * 段落查询
+     * query--->name:"hello lucene"~3
+     * 总记录数-->4
+     * 2   hello lucene world    222
+     * 3   hello jjj lucene    333
+     * 6   hello jj j a lucene    333
+     * 7   hello j j a lucene    3333
+     */
+    public void PhraseQuery2() throws Exception {
+        //PhraseQuery段落查询必须包含"java lucene"才会被命中
+        PhraseQuery query = new PhraseQuery();
+        //name:"java world"等同
+        //luceneService.singSearch("name:\"java world\"");
+        query.add(new Term("name","hello"));
         query.add(new Term("name","lucene"));
         //设置最大间隔数,空格
         query.setSlop(3);
         singSearch(query);
     }
     /***
-     * 通配符 *(表示有1-n个) 查询
+     * 通配符 *(表示有0-n个) 查询
+     * ? 占位一个 ja?a -->java
      */
-    public void search() throws Exception {
-        WildcardQuery query = new WildcardQuery(new Term("name","lu*e"));
+    public void WildcardQuery() throws Exception {
+        WildcardQuery query = new WildcardQuery(new Term("name","*ja?a"));
+
         singSearch(query);
     }
 
     /***
-     * 占位符 ~
+     * 占位符 ~ 相似，不建议用
+     *
      */
     public void testSeach() throws Exception {
-        singSearch("name:jaxx~2");
+        singSearch("name:jav~");
     }
 
     /***
-     * 组合查询
-     * 与 或 非
+     * 组合查询  不支持*?
+     * 与+ 或 非-  省略为或
      * 非 必须是组合条件，否则无效
      * 不能写成singSearch("name:java + name:lucene")，必须singSearch("name:java +name:lucene")
      */
@@ -105,9 +129,9 @@ public class SearchLucene {
 //        //或 等价于singSearch("name:java lucene");
 //        singSearch("name:java name:lucene");
 //        //与
-//        singSearch("name:java + name:lucene");
-        //非
-        singSearch("name:java -name:lucene");
+//        singSearch("+name:java +name:lucene");
+//        //非
+//        singSearch("-name:java -name:lucene");
 
         //效果相同
 
@@ -115,14 +139,14 @@ public class SearchLucene {
 //        BooleanQuery shouldQuery = new BooleanQuery();
 //        shouldQuery.add(new TermQuery(new Term("name","java")), BooleanClause.Occur.SHOULD);
 //        shouldQuery.add(new TermQuery(new Term("name","lucen")), BooleanClause.Occur.SHOULD);
-//        //与
-//        BooleanQuery mustQuery = new BooleanQuery();
-//        mustQuery.add(new TermQuery(new Term("name","java")), BooleanClause.Occur.MUST);
-//        mustQuery.add(new TermQuery(new Term("name","lucene")), BooleanClause.Occur.MUST);
+        //与
+        BooleanQuery mustQuery = new BooleanQuery();
+        mustQuery.add(new TermQuery(new Term("name","java")), BooleanClause.Occur.MUST);
+        mustQuery.add(new TermQuery(new Term("name","lucene")), BooleanClause.Occur.MUST);
 //        //非
 //        BooleanQuery mustNotQuery = new BooleanQuery();
 //        mustNotQuery.add(new TermQuery(new Term("name","java")), BooleanClause.Occur.MUST);
 //        mustNotQuery.add(new TermQuery(new Term("name","lucene")), BooleanClause.Occur.MUST_NOT);
-//        singSearch(mustNotQuery);
+        singSearch(mustQuery);
     }
 }

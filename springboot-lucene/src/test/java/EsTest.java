@@ -1,92 +1,66 @@
-//
-//import com.google.common.collect.Sets;
-//import com.gtsaas.AppMain;
-//import com.gtsaas.dto.FriendsSearch;
-//import com.gtsaas.dto.UserInfoExtDto;
-//import com.gtsaas.mapper.UserInfoExtMapper;
-//import com.gtsaas.model.UserInfoExt;
-//import com.gtsaas.service.AuthService;
-//import org.apache.commons.lang3.StringUtils;
-//import org.apache.lucene.analysis.Analyzer;
-//import org.apache.lucene.analysis.standard.StandardAnalyzer;
-//import org.apache.lucene.document.*;
-//import org.apache.lucene.index.*;
-//import org.apache.lucene.queries.mlt.MoreLikeThis;
-//import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
-//import org.apache.lucene.search.*;
-//import org.apache.lucene.store.Directory;
-//import org.apache.lucene.store.FSDirectory;
-//import org.apache.lucene.util.Version;
-//import org.junit.Test;
-//import org.junit.runner.RunWith;
-//import org.springframework.boot.test.context.SpringBootTest;
-//import org.springframework.test.context.junit4.SpringRunner;
-//
-//import javax.annotation.Resource;
-//import java.io.File;
-//import java.util.*;
-//
-//
-//@SpringBootTest(classes = AppMain.class)
-//@RunWith(SpringRunner.class)
-//public class EsTest {
-//
-//    @Resource
-//    private AuthService authService;
-//    @Resource
-//    private UserInfoExtMapper userInfoExtMapper;
-//
-//    /**
-//     * 人脉搜索最新  ，调这里
-//     * @throws Exception
-//     */
-//    //@Test
-//    public void connectionList2() throws Exception{
-//        Directory directory = null ;
-//        IndexReader reader = null ;
-//        IndexSearcher indexSearcher = null ;
-//        try {
-//            directory = FSDirectory.open(new File("./Index/connectionIndex"));
-//            reader = DirectoryReader.open(directory);
-//            indexSearcher = new IndexSearcher(reader);
-//
-//            FriendsSearch friendsSearch = new FriendsSearch();
-//
-//            // 根据文档id 查询对象
-//            System.out.println(indexSearcher.doc(0).getField("demandLabels").stringValue());
-//
-//
-//            StringBuffer strBuf = new StringBuffer();
-//            strBuf.append("  *:*  AND ( demandLabels:  77 OR 90    ) ");
-//
-//
-//            Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_43);
-//            String[] fields = {"content"};
-//            MultiFieldQueryParser multiFieldQueryParser = new MultiFieldQueryParser(Version.LUCENE_43, fields, analyzer);
-//            multiFieldQueryParser.setAllowLeadingWildcard(true);
-//            Query query = multiFieldQueryParser.parse(strBuf.toString());
-//
-//            Document doc = null;
-//            TopDocs topDocs =  indexSearcher.search(query, friendsSearch.getSize());
-//            for(ScoreDoc doc2 : topDocs.scoreDocs){
-//                System.out.println(doc2.doc);
-//            }
-//        }finally{
-//            if( null != reader ){
-//                try{
-//                    reader.close();
-//                }catch(Exception e){
-//                }
-//            }
-//            if( null != directory ){
-//                try{
-//                    directory.close();
-//                }catch(Exception e){
-//                }
-//            }
-//        }
-//    }
-//
+
+import com.cszt.LuceneApplication;
+import org.apache.lucene.analysis.Analyzer;
+import org.apache.lucene.document.*;
+import org.apache.lucene.index.*;
+import org.apache.lucene.queries.mlt.MoreLikeThis;
+import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
+import org.apache.lucene.search.*;
+import org.apache.lucene.store.Directory;
+import org.apache.lucene.store.FSDirectory;
+import org.apache.lucene.util.Version;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+import org.wltea.analyzer.lucene.IKAnalyzer;
+
+import javax.annotation.Resource;
+import java.io.File;
+import java.util.*;
+
+
+@SpringBootTest(classes = LuceneApplication.class)
+@RunWith(SpringRunner.class)
+public class EsTest {
+
+    /**
+     * 人脉搜索最新  ，调这里
+     *
+     * @throws Exception
+     */
+    @Test
+    public void connectionList2() throws Exception {
+        Directory directory = null;
+        IndexReader reader = null;
+        IndexSearcher indexSearcher = null;
+
+        directory = FSDirectory.open(new File("E:\\Temp\\springboot-lucene\\src\\main\\resources\\index"));
+        reader = DirectoryReader.open(directory);
+        indexSearcher = new IndexSearcher(reader);
+
+        Analyzer analyzer = new IKAnalyzer();
+        //
+        String[] values = {"name","pwd"};
+        //字段值，不允许开头出现*,?
+        String[] fields = {"java","33*"};
+        //
+        BooleanClause.Occur[] occurs = new BooleanClause.Occur[]{BooleanClause.Occur.MUST,BooleanClause.Occur.MUST};
+        MultiFieldQueryParser multiFieldQueryParser = new MultiFieldQueryParser(Version.LUCENE_47, new String[]{}, analyzer);
+        //
+        multiFieldQueryParser.setAllowLeadingWildcard(true);
+        System.out.println(multiFieldQueryParser.getAllowLeadingWildcard());
+
+        Query query = multiFieldQueryParser.parse(Version.LUCENE_43,fields,values,occurs,analyzer);
+        System.out.println("query-->"+query.toString());
+        TopDocs topDocs = indexSearcher.search(query, 10000);
+        System.out.println("总记录数-->"+topDocs.totalHits);
+        for (ScoreDoc doc2 : topDocs.scoreDocs) {
+            Document doc = indexSearcher.doc(doc2.doc);
+            System.out.println(doc.get("id") + "    " + doc.get("name") + "   " + doc.get("pwd"));
+        }
+    }
+
 //    /**
 //     * 创建人脉索引
 //     * @throws Exception
@@ -293,5 +267,5 @@
 //    }
 //
 //
-//
-//}
+
+}

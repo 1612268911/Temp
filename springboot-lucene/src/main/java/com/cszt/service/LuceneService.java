@@ -4,8 +4,7 @@ import com.cszt.domain.User;
 import com.cszt.mapper.UserMapper;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.core.SimpleAnalyzer;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
+import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer;
 import org.apache.lucene.index.*;
 
 import org.apache.lucene.queryparser.classic.QueryParser;
@@ -71,7 +70,7 @@ public class LuceneService {
         Directory directory = FSDirectory.open(new File("E:\\Temp\\springboot-lucene\\src\\main\\resources\\index"));
         IndexReader reader = DirectoryReader.open(directory);
         IndexSearcher indexSearcher = new IndexSearcher(reader);
-        String queryStr = "name:lucene";
+        String queryStr = "lucene";
         String defaultStr = "name";
         Analyzer analyzer = new IKAnalyzer();
         QueryParser queryParser = new QueryParser(Version.LUCENE_43,defaultStr, analyzer);

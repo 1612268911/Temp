@@ -21,6 +21,10 @@ public class SearchTest {
     @Autowired
     private SearchLucene searchService;
     @Test
+    public void singSearch0() throws Exception {
+        searchService.singSearch("name:hello");
+    }
+    @Test
     public void singSearch() throws Exception {
         //单词查询，只要name包含hello或lucene都会被命中
         searchService.singSearch("name:hello lucene");
@@ -34,11 +38,11 @@ public class SearchTest {
 
     @Test
     public void singSearch3() throws Exception {
-        searchService.singSearch3();
+        searchService.PhraseQuery();
     }
     @Test
     public void search() throws Exception {
-        searchService.search();
+        searchService.WildcardQuery();
     }
     @Test
     public void searchTest() throws Exception {
