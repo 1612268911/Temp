@@ -78,7 +78,7 @@ public class SortSearch {
         System.out.println("***********************************");
         ScoreDoc[] scoreDocs = topDocs.scoreDocs;
         if (scoreDocs != null && scoreDocs.length > 0) {
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             for (ScoreDoc sd : scoreDocs) {
                 int docId = sd.doc;
                 Document document = indexSearcher.doc(docId);

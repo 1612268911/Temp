@@ -22,7 +22,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 import com.cszt.pojo.User;
-import com.cszt.mapper.UserMapper;
+import com.cszt.repository.UserMapper;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 

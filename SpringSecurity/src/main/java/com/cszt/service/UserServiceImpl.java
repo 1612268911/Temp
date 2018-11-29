@@ -11,7 +11,7 @@
 package com.cszt.service;
 
 import com.cszt.domian.Roles;
-import com.cszt.mapper.UserJpa;
+import com.cszt.repository.UserJpa;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
 import com.cszt.domian.User;

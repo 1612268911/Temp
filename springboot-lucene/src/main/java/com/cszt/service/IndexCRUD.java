@@ -1,7 +1,7 @@
 package com.cszt.service;
 
 import com.cszt.domain.User;
-import com.cszt.mapper.UserMapper;
+import com.cszt.repository.UserMapper;
 import org.apache.lucene.document.*;
 import org.apache.lucene.index.FieldInfo;
 import org.apache.lucene.index.IndexWriter;

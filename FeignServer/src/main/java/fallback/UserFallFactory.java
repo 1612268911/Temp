@@ -11,8 +11,8 @@
 package fallback;
 
 import feign.hystrix.FallbackFactory;
-import com.cszt.mapper.UserFeignClient;
-import com.cszt.mapper.UserFeignClientson;
+import com.cszt.repository.UserFeignClient;
+import com.cszt.repository.UserFeignClientson;
 import org.springframework.stereotype.Component;
 import com.cszt.pojo.User;
 

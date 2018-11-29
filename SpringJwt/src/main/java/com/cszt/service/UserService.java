@@ -2,7 +2,7 @@ package com.cszt.service;
 
 import com.cszt.domain.TokenResult;
 import com.cszt.domain.User;
-import com.cszt.mapper.UserMapper;
+import com.cszt.repository.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

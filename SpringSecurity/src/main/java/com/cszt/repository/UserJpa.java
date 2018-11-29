@@ -8,7 +8,7 @@
  * <author>          <time>          <version>          <desc>
  * 作者姓名           修改时间           版本号              描述
  */
-package com.cszt.mapper;
+package com.cszt.repository;
 
 import com.cszt.domian.User;
 import org.springframework.stereotype.Repository;

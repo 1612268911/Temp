@@ -2,7 +2,7 @@ package com.cszt.interceptor;
 
 import com.cszt.domain.TokenResult;
 import com.cszt.domain.User;
-import com.cszt.mapper.TokenMapper;
+import com.cszt.repository.TokenMapper;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

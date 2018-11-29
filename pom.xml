@@ -61,6 +61,7 @@
         <module>spring-provider</module>
         <module>spring-consumer</module>
         <module>springboot-lucene</module>
+        <module>springboot-elasticsearch</module>
     </modules>
     <build>
         <plugins>

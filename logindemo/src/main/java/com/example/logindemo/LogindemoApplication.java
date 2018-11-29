@@ -11,7 +11,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableEurekaClient
-@MapperScan(basePackages = {"com.example.logindemo.com.cszt.mapper"})
+@MapperScan(basePackages = {"com.example.logindemo.com.cszt.repository"})
 public class LogindemoApplication {
 
 	@Bean

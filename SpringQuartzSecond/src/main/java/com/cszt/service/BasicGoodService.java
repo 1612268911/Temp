@@ -3,7 +3,7 @@ package com.cszt.service;
 import com.cszt.domain.BasicGoods;
 import com.cszt.jobs.InventoryCheckJob;
 import com.cszt.jobs.PromptJob;
-import com.cszt.mapper.BasicGoodsMapper;
+import com.cszt.repository.BasicGoodsMapper;
 import com.sun.xml.internal.ws.developer.Serialization;
 import org.quartz.*;
 import java.util.Calendar;

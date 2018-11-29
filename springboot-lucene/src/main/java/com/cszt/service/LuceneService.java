@@ -1,10 +1,9 @@
 package com.cszt.service;
 
 import com.cszt.domain.User;
-import com.cszt.mapper.UserMapper;
+import com.cszt.repository.UserMapper;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer;
 import org.apache.lucene.index.*;
 
 import org.apache.lucene.queryparser.classic.QueryParser;

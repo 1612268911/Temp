@@ -29,7 +29,7 @@ import org.springframework.web.WebApplicationInitializer;
 @EnableAutoConfiguration
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.szzt.smart.testlist"})
-@MapperScan(basePackages = {"com.szzt.smart.testlist.mapper"})
+@MapperScan(basePackages = {"com.szzt.smart.testlist.repository"})
 public class Testlist
 {
 	public static void main(String[] args)

@@ -1,4 +1,4 @@
-package com.cszt.mapper;
+package com.cszt.repository;
 
 import com.cszt.domain.User;
 import org.apache.ibatis.annotations.Param;

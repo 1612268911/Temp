@@ -10,6 +10,8 @@ spring:
 #    schema: classpath:sql/create.sql   #创建表
 mybatis:
   type-aliases-package: com.szzt.domain
+logging:
+  path: e:/
 
 
 

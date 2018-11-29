@@ -35,7 +35,7 @@ import javax.sql.DataSource;
  * @since 1.0.0
  */
 @Configuration
-@MapperScan(basePackages = {"com.cszt.test1.mapper"}, sqlSessionFactoryRef = "test1SqlSessionFactory")
+@MapperScan(basePackages = {"com.cszt.test1.repository"}, sqlSessionFactoryRef = "test1SqlSessionFactory")
 public class DataSourcesTest1 {
     @Primary
     @Bean(name = "test1DataSource")

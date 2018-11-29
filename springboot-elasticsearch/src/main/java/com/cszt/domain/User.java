@@ -1,5 +1,9 @@
 package com.cszt.domain;
 
+import com.cszt.elasticsearch.CommonConfig;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.Document;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -8,7 +12,9 @@ import java.util.Date;
  * @create 2018/11/19 14:57
  * description:
  */
+@Document(indexName = CommonConfig.INDEX,type = CommonConfig.TYPE)
 public class User implements Serializable {
+    @Id
     private int id;
 
     private String name;
@@ -47,5 +53,26 @@ public class User implements Serializable {
 
     public void setPwd(String pwd) {
         this.pwd = pwd;
+    }
+
+    public User() {
+
+    }
+
+    public User(int id, String name, String pwd, Date createTime) {
+        this.id = id;
+        this.name = name;
+        this.pwd = pwd;
+        this.createTime = createTime;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", pwd='" + pwd + '\'' +
+                ", createTime=" + createTime +
+                '}';
     }
 }
