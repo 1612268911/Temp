@@ -7,6 +7,8 @@ import org.apache.lucene.index.FieldInfo;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.index.Term;
+import org.apache.lucene.search.MatchAllDocsQuery;
+import org.apache.lucene.search.TermQuery;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
@@ -16,6 +18,7 @@ import org.springframework.util.CollectionUtils;
 import org.wltea.analyzer.lucene.IKAnalyzer;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -93,6 +96,19 @@ public class IndexCRUD {
 //        indexWriter.deleteDocuments(query);
         //**************end**************
         indexWriter.commit();
+        indexWriter.close();
+    }
+
+    /***
+     * 根据条件删除
+     * @throws IOException
+     */
+    public void removeByQuery() throws IOException {
+        Directory directory = FSDirectory.open(new File("E:\\Temp\\springboot-lucene\\src\\main\\resources\\index"));
+        IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_43,new IKAnalyzer());
+        IndexWriter indexWriter = new IndexWriter(directory,config);
+        MatchAllDocsQuery query = new MatchAllDocsQuery();//删除所有
+        indexWriter.deleteDocuments(query);//根据条件删除文档
         indexWriter.close();
     }
     public void update() throws Exception{

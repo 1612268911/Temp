@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.io.IOException;
+
 /**
  * @author lilin
  * @create 2018/11/22 10:48
@@ -28,5 +30,9 @@ public class IndexCRUDTest {
     @Test
     public void update() throws Exception {
         indexCRUD.update();
+    }
+    @Test
+    public void removeTest() throws IOException {
+        indexCRUD.removeByQuery();
     }
 }

@@ -40,7 +40,7 @@ public class SortSearch {
         //数据类型long
         //降序true
         Sort sort = new Sort();
-        SortField sortField = new SortField("name", SortField.Type.STRING, true);
+        SortField sortField = new SortField("name", SortField.Type.STRING, false);
         sort.setSort(sortField);
 //        //多字段排序
 //        SortField sf1 = new SortField("name", SortField.Type.STRING, true);
