@@ -172,16 +172,18 @@ public class ElasticSearchUtil {
      */
     public static void deleteByQuery() throws Exception {
         TransportClient client = getConnection();
-        QueryBuilder filter = QueryBuilders.matchPhraseQuery("name","world" );
+        QueryBuilder filter = QueryBuilders.matchPhraseQuery("name","lucene" );
 //        DeleteByQueryRequestBuilder byQueryRequestBuilder = new DeleteByQueryRequestBuilder(client, DeleteByQueryAction.INSTANCE);
 //        byQueryRequestBuilder
 //                .source("test")//index
 //                .filter(filter)//过滤条件
 //                .get();
-        BulkByScrollResponse test = DeleteByQueryAction.INSTANCE.newRequestBuilder(client)
+        BulkByScrollResponse response = DeleteByQueryAction.INSTANCE.newRequestBuilder(client)
                 .filter(filter)//过滤条件
                 .source("test")//index
                 .get();
+        long deleted = response.getDeleted();
+        System.out.println("删除了-->"+deleted);
     }
 
     /***

@@ -11,7 +11,9 @@ spring:
 mybatis:
   type-aliases-package: com.szzt.domain
 logging:
-  path: e:/
+  level: debug
+  pattern:
+  file: e:/logs/run.log
 
 
 

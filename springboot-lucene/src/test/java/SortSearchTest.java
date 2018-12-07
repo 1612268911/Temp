@@ -8,7 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
+import java.util.concurrent.Executors;
 
 /**
  * @author lilin
@@ -18,6 +21,7 @@ import java.util.Date;
 @SpringBootTest(classes = LuceneApplication.class)
 @RunWith(SpringRunner.class)
 public class SortSearchTest {
+
     @Autowired
     private SortSearch sortSearch;
 
@@ -28,5 +32,6 @@ public class SortSearchTest {
     @Test
     public void dateSortSearch() throws Exception {
         sortSearch.dateSortSearch();
+
     }
 }

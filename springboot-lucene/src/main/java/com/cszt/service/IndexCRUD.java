@@ -109,13 +109,14 @@ public class IndexCRUD {
         IndexWriter indexWriter = new IndexWriter(directory,config);
         MatchAllDocsQuery query = new MatchAllDocsQuery();//删除所有
         indexWriter.deleteDocuments(query);//根据条件删除文档
+        indexWriter.commit();
         indexWriter.close();
     }
     public void update() throws Exception{
         Directory directory = FSDirectory.open(new File("E:\\Temp\\springboot-lucene\\src\\main\\resources\\index"));
         IndexWriterConfig conf = new IndexWriterConfig(Version.LUCENE_43,new IKAnalyzer());
         IndexWriter indexWriter = new IndexWriter(directory,conf);
-        //*****************start********************
+        /*****************start********************/
         //先删除，再添加
         //单条修改
         Document document = new Document();
@@ -127,7 +128,7 @@ public class IndexCRUD {
 //        List<Document> list = new ArrayList<Document>();
 //        list.add(document);
 //        indexWriter.updateDocuments(new Term("name","java"),list);
-        //**************end**************
+        /********************end********************/
         indexWriter.commit();
         indexWriter.close();
     }
