@@ -62,6 +62,9 @@
         <module>spring-consumer</module>
         <module>springboot-lucene</module>
         <module>springboot-elasticsearch</module>
+        <module>immedia</module>
+        <module>imwebsocket</module>
+        <module>im-websocker</module>
     </modules>
     <build>
         <plugins>

@@ -1,5 +1,7 @@
 package com.cszt;
 
+import groovy.util.logging.Slf4j;
+import org.apache.log4j.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
@@ -19,13 +21,15 @@ import java.util.Map;
 @RestController
 @ComponentScan("com.cszt")
 public class ConsumerApplication {
+
+    private Logger log = Logger.getLogger(ConsumerApplication.class);
     public static void main(String[] args){
         SpringApplication.run(ConsumerApplication.class,args);
     }
     @GetMapping("/getData")
     public Map<String,Object> getData(HttpServletResponse response){
-        System.out.print("***********************");
         //设置跨域
+        log.info("/getData--->请求成功！");
         //response.setHeader("Access-Control-Allow-Origin", "*");
         HashMap<String, Object> result = new HashMap<String, Object>();
         result.put("code",200);

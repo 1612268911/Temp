@@ -1,2 +1,6 @@
 server:
   port: 8080
+logging:
+  pattern:
+    file: "%d{yyyy-MM-dd}.log"
+  path: /opt/logs
